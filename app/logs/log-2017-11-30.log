@@ -1,0 +1,121 @@
+ERROR - 2017-11-30 13:29:50 --> Severity: error --> Exception: Call to undefined method model_content_types::loadContet_Types() /var/www/me.indofun.forum/app/controllers/Home.php 21
+ERROR - 2017-11-30 13:29:50 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-30 13:30:40 --> Severity: error --> Exception: Call to undefined method model_content_types::loadContet_Types() /var/www/me.indofun.forum/app/controllers/Home.php 21
+ERROR - 2017-11-30 13:30:40 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-30 13:31:19 --> Severity: error --> Exception: Call to undefined method model_content_types::loadContet_Types() /var/www/me.indofun.forum/app/controllers/Home.php 21
+ERROR - 2017-11-30 13:31:19 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-30 13:45:30 --> Severity: Notice --> Undefined index: code /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 464
+ERROR - 2017-11-30 13:45:30 --> Severity: Notice --> Undefined index: code /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 464
+ERROR - 2017-11-30 13:45:30 --> Severity: Notice --> Undefined index: code /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 464
+ERROR - 2017-11-30 13:45:30 --> Severity: Notice --> Undefined index: code /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 464
+ERROR - 2017-11-30 13:45:30 --> Severity: Notice --> Undefined index: code /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 464
+ERROR - 2017-11-30 13:45:30 --> Severity: Notice --> Undefined index: code /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 464
+ERROR - 2017-11-30 13:45:30 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 13:45:30 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 13:45:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 13:46:30 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 13:46:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 13:46:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 13:47:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 13:47:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 13:47:10 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 14:32:12 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 14:32:12 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 14:32:13 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 14:34:37 --> Severity: Notice --> Undefined variable: keySub /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 476
+ERROR - 2017-11-30 14:34:38 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 14:34:39 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 14:34:39 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:06:41 --> Severity: Notice --> Undefined variable: keySub /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 476
+ERROR - 2017-11-30 15:06:41 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:06:41 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:06:47 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:06:49 --> Severity: Notice --> Undefined variable: keySub /var/www/me.indofun.forum/app/views/frontend/layout/forum/_pageheader.php 476
+ERROR - 2017-11-30 15:06:50 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:06:50 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:06:51 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:07:40 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:07:40 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:07:41 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:07:49 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 5
+ERROR - 2017-11-30 15:07:49 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 37
+ERROR - 2017-11-30 15:07:49 --> Severity: Notice --> Undefined variable: pageTemplate /var/www/me.indofun.forum/app/views/frontend/layout/forum/main.php 8
+ERROR - 2017-11-30 15:07:49 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:07:49 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:07:49 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:08:22 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 5
+ERROR - 2017-11-30 15:08:22 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 37
+ERROR - 2017-11-30 15:08:22 --> Severity: Notice --> Undefined variable: pageTemplate /var/www/me.indofun.forum/app/views/frontend/layout/forum/main.php 8
+ERROR - 2017-11-30 15:08:22 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:08:22 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:09:25 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 5
+ERROR - 2017-11-30 15:09:25 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 37
+ERROR - 2017-11-30 15:09:25 --> Severity: Notice --> Undefined variable: pageTemplate /var/www/me.indofun.forum/app/views/frontend/layout/forum/main.php 8
+ERROR - 2017-11-30 15:09:25 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:09:25 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:09:25 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:09:27 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 5
+ERROR - 2017-11-30 15:09:27 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 37
+ERROR - 2017-11-30 15:09:27 --> Severity: Notice --> Undefined variable: pageTemplate /var/www/me.indofun.forum/app/views/frontend/layout/forum/main.php 8
+ERROR - 2017-11-30 15:11:11 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 5
+ERROR - 2017-11-30 15:11:11 --> Severity: Notice --> Undefined variable: pageTitle /var/www/me.indofun.forum/app/views/frontend/layout/forum/_header.php 37
+ERROR - 2017-11-30 15:11:11 --> Severity: Notice --> Undefined variable: pageTemplate /var/www/me.indofun.forum/app/views/frontend/layout/forum/main.php 8
+ERROR - 2017-11-30 15:11:37 --> Severity: Notice --> Undefined index: id /var/www/me.indofun.forum/app/controllers/Content.php 26
+ERROR - 2017-11-30 15:11:37 --> Severity: Notice --> Undefined index: id /var/www/me.indofun.forum/app/controllers/Content.php 27
+ERROR - 2017-11-30 15:11:37 --> Severity: Notice --> Undefined index: id /var/www/me.indofun.forum/app/controllers/Content.php 28
+ERROR - 2017-11-30 15:11:37 --> Severity: Notice --> Undefined index: name /var/www/me.indofun.forum/app/controllers/Content.php 30
+ERROR - 2017-11-30 15:11:57 --> Severity: Notice --> Undefined index: id /var/www/me.indofun.forum/app/controllers/Content.php 28
+ERROR - 2017-11-30 15:11:57 --> Severity: Notice --> Undefined index: id /var/www/me.indofun.forum/app/controllers/Content.php 29
+ERROR - 2017-11-30 15:11:57 --> Severity: Notice --> Undefined index: id /var/www/me.indofun.forum/app/controllers/Content.php 30
+ERROR - 2017-11-30 15:11:57 --> Severity: Notice --> Undefined index: name /var/www/me.indofun.forum/app/controllers/Content.php 32
+ERROR - 2017-11-30 15:12:35 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:12:35 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:12:36 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:05 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:06 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:06 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:26 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:26 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:27 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:56 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:57 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:44:57 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:47:21 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:47:21 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:47:22 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:48:47 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:48:48 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:48:48 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:55:06 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:55:06 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 15:55:06 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 17:08:33 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711301708331496', '1', 'backend/auth', 'Login', '', '{\\\"success\\\":true,\\\"url\\\":\\\"parameters\\\\/usertype\\\"}', '192.168.0.238', '1', '2017-11-30 17:08:33')
+ERROR - 2017-11-30 17:09:09 --> Query error: Unknown column 'url_download' in 'field list' - Invalid query: SELECT `id`, `id_gallery`, `name`, `description`, `url_download`, `url_playstore`, `url_applestore`, `facebook_likes`, `status`, `entry_by`, `entry_time`, `update_by`, `update_time`
+FROM `games`
+WHERE `id` = '3'
+ERROR - 2017-11-30 17:09:09 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/backend/management/games/Model_games.php 143
+ERROR - 2017-11-30 17:09:09 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-30 17:37:41 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711301737412347', '1', 'games-management/games', 'Update', '{\\\"id\\\":\\\"3\\\",\\\"id_gallery\\\":\\\"\\\",\\\"name\\\":\\\"Anime Fighters\\\",\\\"description\\\":\\\"-\\\",\\\"url_download\\\":\\\"\\\",\\\"url_playstore\\\":\\\"\\\",\\\"url_applestore\\\":\\\"\\\",\\\"facebook_likes\\\":\\\"\\\",\\\"path_ori\\\":\\\"\\\\/var\\\\/www\\\\/me.indofun.forum\\\\/assets\\\\/galleries\\\\/409a25a8671a1ee67364e5d070aa999c.jpg\\\",\\\"path_thumb\\\":\\\"\\\",\\\"url_ori\\\":\\\"assets\\\\/galleries\\\\/409a25a8671a1ee67364e5d070aa999c.jpg\\\",\\\"url_thumb\\\":\\\"\\\",\\\"mime_type\\\":\\\"image\\\\/jpeg\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '192.168.0.238', '1', '2017-11-30 17:37:41')
+ERROR - 2017-11-30 21:00:30 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 21:00:30 --> 404 Page Not Found: assets
+ERROR - 2017-11-30 21:00:31 --> 404 Page Not Found: assets

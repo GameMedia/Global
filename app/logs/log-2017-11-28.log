@@ -1,0 +1,281 @@
+ERROR - 2017-11-28 09:11:07 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 43
+ERROR - 2017-11-28 09:11:07 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:11:07 --> 404 Page Not Found: favicon.ico
+ERROR - 2017-11-28 09:12:07 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 43
+ERROR - 2017-11-28 09:12:07 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:12:08 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 43
+ERROR - 2017-11-28 09:12:08 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:15:06 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 43
+ERROR - 2017-11-28 09:15:06 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:50:01 --> Severity: Notice --> Undefined index: count /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 106
+ERROR - 2017-11-28 09:50:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:50:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:50:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:50:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:50:02 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:50:56 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 43
+ERROR - 2017-11-28 09:50:56 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:51:13 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:51:13 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 66
+ERROR - 2017-11-28 09:51:13 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:51:14 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:51:14 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 66
+ERROR - 2017-11-28 09:51:14 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:51:39 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:51:39 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 65
+ERROR - 2017-11-28 09:51:39 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:51:39 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:51:39 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 65
+ERROR - 2017-11-28 09:51:39 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:51:54 --> Severity: Notice --> Undefined index: count /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 106
+ERROR - 2017-11-28 09:51:54 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:51:54 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:51:54 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:51:54 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:51:55 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:09 --> Severity: Notice --> Undefined index: count /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 106
+ERROR - 2017-11-28 09:52:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:52 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:52:52 --> Severity: Notice --> Undefined index: count /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 106
+ERROR - 2017-11-28 09:52:52 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:52 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:52 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:52 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:52:52 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:53:40 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:53:40 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 63
+ERROR - 2017-11-28 09:53:40 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:54:28 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:54:28 --> Severity: Notice --> Undefined index: rows /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 107
+ERROR - 2017-11-28 09:54:28 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 107
+ERROR - 2017-11-28 09:54:28 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:54:28 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:54:28 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:54:28 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:54:28 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:54:45 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:54:45 --> Severity: error --> Exception: Call to a member function result_array() on boolean /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 65
+ERROR - 2017-11-28 09:54:45 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 09:55:20 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:55:20 --> Severity: Notice --> Undefined index: rows /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 107
+ERROR - 2017-11-28 09:55:20 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 107
+ERROR - 2017-11-28 09:55:20 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:55:21 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:55:21 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:55:21 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 09:55:26 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+AND `c`.`id_content_type` = '1'
+ORDER BY `c`.`publish_time` DESC
+ LIMIT 5
+ERROR - 2017-11-28 09:55:26 --> Severity: Notice --> Undefined index: rows /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 107
+ERROR - 2017-11-28 09:55:26 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 107
+ERROR - 2017-11-28 10:12:29 --> Query error: Unknown column 'c.is_icon_show' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`short_desc`, `c`.`seen`, `c`.`icon`, `c`.`is_icon_show`, `c`.`publish_time`, `c`.`is_show_image`, `ct`.`code` AS `code_content_type`, `ct`.`name` AS `name_content_type`, `g`.`url_ori`, `g`.`url_thumb`
+FROM `contents` `c`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` = '1'
+AND `ct`.`status` = '1'
+ERROR - 2017-11-28 10:12:29 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/frontend/Model_contents.php 64
+ERROR - 2017-11-28 10:12:29 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 10:16:12 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:12 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:12 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:12 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:12 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:16:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:17:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:17:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:17:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:17:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:17:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:16 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:16 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:16 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:16 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:16 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:18:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:26:13 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:26:13 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:26:29 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:26:29 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:26:42 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 10:26:42 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:12:51 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:12:52 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:13:22 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:13:22 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:13:37 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:13:37 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:14:47 --> Severity: error --> Exception: Call to undefined function len() /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 209
+ERROR - 2017-11-28 11:14:47 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 11:14:47 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:14:47 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:15:02 --> Severity: error --> Exception: syntax error, unexpected ')', expecting ',' or ';' /var/www/me.indofun.forum/app/views/frontend/forum/view_home.php 209
+ERROR - 2017-11-28 11:15:02 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-28 11:15:02 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:15:02 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:15:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:15:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:16:18 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:16:18 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:16:51 --> 404 Page Not Found: assets
+ERROR - 2017-11-28 11:16:51 --> 404 Page Not Found: assets

@@ -1,0 +1,103 @@
+ERROR - 2017-11-29 08:51:06 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 08:51:07 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 08:51:14 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 08:51:15 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 09:24:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 09:24:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 09:24:40 --> 404 Page Not Found: favicon.ico
+ERROR - 2017-11-29 09:24:46 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711290924463896', '1', 'backend/auth', 'Login', '', '{\\\"success\\\":true,\\\"url\\\":\\\"parameters\\\\/usertype\\\"}', '192.168.0.238', '1', '2017-11-29 09:24:46')
+ERROR - 2017-11-29 09:38:34 --> Query error: Table 'indofun_forum.websites' doesn't exist - Invalid query: SELECT `id`, `name`
+FROM `websites`
+WHERE `status` = '1'
+ORDER BY `name` ASC
+ERROR - 2017-11-29 09:38:34 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/backend/managing/parameters/Model_websites.php 105
+ERROR - 2017-11-29 09:38:34 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-29 09:58:04 --> Query error: Table 'indofun_forum.websites' doesn't exist - Invalid query: SELECT `id`, `name`
+FROM `websites`
+WHERE `status` = '1'
+ORDER BY `name` ASC
+ERROR - 2017-11-29 09:58:04 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/backend/managing/parameters/Model_websites.php 105
+ERROR - 2017-11-29 09:58:04 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-29 09:58:05 --> Query error: Table 'indofun_forum.websites' doesn't exist - Invalid query: SELECT `id`, `name`
+FROM `websites`
+WHERE `status` = '1'
+ORDER BY `name` ASC
+ERROR - 2017-11-29 09:58:05 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/backend/managing/parameters/Model_websites.php 105
+ERROR - 2017-11-29 09:58:05 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-29 09:58:35 --> Severity: Notice --> Undefined variable: websites /var/www/me.indofun.forum/app/views/backend/metronic.3.7/management/content/view_contents.php 107
+ERROR - 2017-11-29 09:58:35 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/me.indofun.forum/app/views/backend/metronic.3.7/management/content/view_contents.php 107
+ERROR - 2017-11-29 09:58:35 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER ' at line 3 - Invalid query: SELECT COUNT(1) AS count
+FROM `contents` `c`
+JOIN `games` `gm` ON `c`.`id_game` = `gm`..`id`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` != '-1'
+AND `ct`.`status` = '1'
+ERROR - 2017-11-29 09:58:35 --> Severity: error --> Exception: Call to a member function result_array() on boolean /var/www/me.indofun.forum/app/models/backend/management/content/Model_contents.php 52
+ERROR - 2017-11-29 09:58:35 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-29 10:02:06 --> Severity: Notice --> Undefined variable: websites /var/www/me.indofun.forum/app/views/backend/metronic.3.7/management/content/view_contents.php 107
+ERROR - 2017-11-29 10:02:06 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/me.indofun.forum/app/views/backend/metronic.3.7/management/content/view_contents.php 107
+ERROR - 2017-11-29 10:02:06 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER ' at line 3 - Invalid query: SELECT COUNT(1) AS count
+FROM `contents` `c`
+JOIN `games` `gm` ON `c`.`id_game` = `gm`..`id`
+JOIN `content_types` `ct` ON `c`.`id_content_type` = `ct`.`id`
+LEFT OUTER JOIN `galleries` `g` ON `c`.`id_gallery` = `g`.`id`
+WHERE `c`.`status` != '-1'
+AND `ct`.`status` = '1'
+ERROR - 2017-11-29 10:02:06 --> Severity: error --> Exception: Call to a member function result_array() on boolean /var/www/me.indofun.forum/app/models/backend/management/content/Model_contents.php 52
+ERROR - 2017-11-29 10:02:06 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-29 10:44:12 --> Severity: Notice --> Undefined variable: websites /var/www/me.indofun.forum/app/views/backend/metronic.3.7/management/content/view_contents.php 107
+ERROR - 2017-11-29 10:44:12 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/me.indofun.forum/app/views/backend/metronic.3.7/management/content/view_contents.php 107
+ERROR - 2017-11-29 11:09:01 --> Severity: Notice --> Undefined index: id_website /var/www/me.indofun.forum/app/controllers/content-management/Contents.php 117
+ERROR - 2017-11-29 11:09:01 --> Query error: Unknown column 'id_website' in 'field list' - Invalid query: INSERT INTO `contents` (`id_website`, `id_content_type`, `id_gallery`, `code`, `name`, `short_desc`, `long_desc`, `short_desc_en`, `long_desc_en`, `publish_time`, `status`, `entry_by`, `entry_time`) VALUES ('', '2', '', 'test-discussion', 'Test Discussion', 'Ini Short Description', '<html>\n<head>\n	<title></title>\n</head>\n<body>\n<p>coba aja</p>\n</body>\n</html>\n', 'ini short description EN', '<html>\n<head>\n	<title></title>\n</head>\n<body>\n<p>-</p>\n</body>\n</html>\n', '2017-10-10 20:00', '1', '1', '2017-11-29 11:09:01')
+ERROR - 2017-11-29 11:09:01 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711291109016681', '1', 'content-management/contents', 'Save', '', '{\\\"success\\\":false,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Unknown column \\\'id_website\\\' in \\\'field list\\\'\\\"}', '192.168.0.238', '1', '2017-11-29 11:09:01')
+ERROR - 2017-11-29 11:12:55 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711291112553613', '1', 'content-management/contents', 'Save', '{\\\"id\\\":\\\"\\\",\\\"id_game\\\":\\\"2\\\",\\\"id_gallery\\\":\\\"\\\",\\\"id_content_type\\\":\\\"2\\\",\\\"name\\\":\\\"Test\\\",\\\"publish_time\\\":\\\"2017-11-29 20:00\\\",\\\"short_desc\\\":\\\"Short Desc Test\\\",\\\"long_desc\\\":\\\"<html>\\\\n<head>\\\\n\\\\t<title><\\\\/title>\\\\n<\\\\/head>\\\\n<body>\\\\n<p>-<\\\\/p>\\\\n<\\\\/body>\\\\n<\\\\/html>\\\\n\\\",\\\"short_desc_en\\\":\\\"Short Desc EN\\\",\\\"long_desc_en\\\":\\\"<html>\\\\n<head>\\\\n\\\\t<title><\\\\/title>\\\\n<\\\\/head>\\\\n<body>\\\\n<p>-<\\\\/p>\\\\n<\\\\/body>\\\\n<\\\\/html>\\\\n\\\",\\\"path_ori\\\":\\\"\\\",\\\"path_thumb\\\":\\\"\\\",\\\"url_ori\\\":\\\"\\\",\\\"url_thumb\\\":\\\"\\\",\\\"mime_type\\\":\\\"\\\",\\\"status\\\":\\\"1\\\",\\\"code\\\":\\\"test\\\"}', '{\\\"id\\\":21,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '192.168.0.238', '1', '2017-11-29 11:12:55')
+ERROR - 2017-11-29 12:37:00 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 12:37:00 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 14:58:02 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711291458010028', '1', 'backend/auth', 'Login', '', '{\\\"success\\\":true,\\\"url\\\":\\\"parameters\\\\/usertype\\\"}', '192.168.0.238', '1', '2017-11-29 14:58:01')
+ERROR - 2017-11-29 14:58:19 --> Query error: Unknown column 'is_icon_show' in 'field list' - Invalid query: SELECT `id`, `id_game`, `id_gallery`, `id_content_type`, `code`, `name`, `short_desc`, `long_desc`, `seen`, `seq`, `icon`, `is_icon_show`, `is_show_image`, `status`, `publish_time`, `entry_by`, `entry_time`, `update_by`, `update_time`
+FROM `contents`
+WHERE `id` = '21'
+ERROR - 2017-11-29 14:58:19 --> Severity: error --> Exception: Call to a member function num_rows() on boolean /var/www/me.indofun.forum/app/models/backend/management/content/Model_contents.php 157
+ERROR - 2017-11-29 14:58:19 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-29 15:20:03 --> Query error: Duplicate entry 'test' for key 'code' - Invalid query: INSERT INTO `contents` (`id_game`, `id_content_type`, `id_gallery`, `code`, `name`, `short_desc`, `long_desc`, `short_desc_en`, `long_desc_en`, `publish_time`, `status`, `entry_by`, `entry_time`) VALUES ('3', '3', '45', 'test', 'test', 'tests', '<html>\n<head>\n	<title></title>\n</head>\n<body>\n<p>-</p>\n</body>\n</html>\n', '-', '<html>\n<head>\n	<title></title>\n</head>\n<body>\n<p>-</p>\n</body>\n</html>\n', '2017-11-29 10:00', '1', '1', '2017-11-29 15:20:03')
+ERROR - 2017-11-29 15:20:03 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711291520039197', '1', 'content-management/contents', 'Save', '', '{\\\"success\\\":false,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Duplicate entry \\\'test\\\' for key \\\'code\\\'\\\"}', '192.168.0.238', '1', '2017-11-29 15:20:03')
+ERROR - 2017-11-29 15:20:13 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711291520135977', '1', 'content-management/contents', 'Save', '{\\\"id\\\":\\\"\\\",\\\"id_game\\\":\\\"3\\\",\\\"id_gallery\\\":\\\"\\\",\\\"id_content_type\\\":\\\"3\\\",\\\"name\\\":\\\"test-lounge\\\",\\\"publish_time\\\":\\\"2017-11-29 10:00\\\",\\\"short_desc\\\":\\\"tests\\\",\\\"long_desc\\\":\\\"<html>\\\\n<head>\\\\n\\\\t<title><\\\\/title>\\\\n<\\\\/head>\\\\n<body>\\\\n<p>-<\\\\/p>\\\\n<\\\\/body>\\\\n<\\\\/html>\\\\n\\\",\\\"short_desc_en\\\":\\\"-\\\",\\\"long_desc_en\\\":\\\"<html>\\\\n<head>\\\\n\\\\t<title><\\\\/title>\\\\n<\\\\/head>\\\\n<body>\\\\n<p>-<\\\\/p>\\\\n<\\\\/body>\\\\n<\\\\/html>\\\\n\\\",\\\"path_ori\\\":\\\"\\\\/var\\\\/www\\\\/me.indofun.forum\\\\/assets\\\\/galleries\\\\/4f139a245aabe748b73d531a2f366496.png\\\",\\\"path_thumb\\\":\\\"\\\",\\\"url_ori\\\":\\\"assets\\\\/galleries\\\\/4f139a245aabe748b73d531a2f366496.png\\\",\\\"url_thumb\\\":\\\"\\\",\\\"mime_type\\\":\\\"image\\\\/png\\\",\\\"status\\\":\\\"1\\\",\\\"code\\\":\\\"test-lounge\\\"}', '{\\\"id\\\":23,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '192.168.0.238', '1', '2017-11-29 15:20:13')
+ERROR - 2017-11-29 15:20:26 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 15:20:36 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 15:20:36 --> 404 Page Not Found: assets
+ERROR - 2017-11-29 18:33:26 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711291833266665', '1', 'backend/auth', 'Login', '', '{\\\"success\\\":true,\\\"url\\\":\\\"parameters\\\\/usertype\\\"}', '192.168.0.238', '1', '2017-11-29 18:33:26')

@@ -1,0 +1,424 @@
+ERROR - 2018-03-03 02:50:55 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-03-03 04:07:56 --> Severity: Parsing Error --> syntax error, unexpected 'as' (T_AS) C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 04:09:06 --> Severity: Error --> Call to undefined method CI_Loader::loadDbCms() C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 12
+ERROR - 2018-03-03 04:09:32 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:09:34 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:10:37 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:10:39 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:10:55 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:10:57 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:12:18 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:12:20 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:12:52 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:12:54 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:18:04 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:18:06 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:18:29 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:18:32 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:21:50 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:21:52 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:22:28 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:22:31 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:22:50 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:22:52 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:23:13 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:23:16 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:23:38 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:23:40 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:24:03 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:24:05 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:24:24 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:24:27 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:25:15 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:25:18 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:30:27 --> Severity: Notice --> Undefined variable: dictionaries C:\xampp\htdocs\Gmedia\app\views\backend\metronic\master-management\view_dictionaries.php 60
+ERROR - 2018-03-03 04:30:27 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\Gmedia\app\views\backend\metronic\master-management\view_dictionaries.php 60
+ERROR - 2018-03-03 04:30:28 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:30:30 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:30:31 --> 404 Page Not Found: Managing_parameters/dictionaries
+ERROR - 2018-03-03 04:50:33 --> Severity: Notice --> Undefined variable: dictionaries C:\xampp\htdocs\Gmedia\app\views\backend\metronic\master-management\view_dictionaries.php 60
+ERROR - 2018-03-03 04:50:33 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\Gmedia\app\views\backend\metronic\master-management\view_dictionaries.php 60
+ERROR - 2018-03-03 04:50:34 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:50:36 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:50:38 --> 404 Page Not Found: Managing_parameters/dictionaries
+ERROR - 2018-03-03 04:51:25 --> Severity: Notice --> Undefined variable: dictionaries C:\xampp\htdocs\Gmedia\app\views\backend\metronic\master-management\view_dictionaries.php 60
+ERROR - 2018-03-03 04:51:25 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\Gmedia\app\views\backend\metronic\master-management\view_dictionaries.php 60
+ERROR - 2018-03-03 04:51:26 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:51:28 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 04:51:30 --> 404 Page Not Found: Managing_parameters/dictionaries
+ERROR - 2018-03-03 04:53:30 --> Severity: Error --> Call to undefined method Model_account::loadDbPlatform() C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_account.php 13
+ERROR - 2018-03-03 05:13:15 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 05:13:17 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 05:13:18 --> 404 Page Not Found: Managing_parameters/dictionaries
+ERROR - 2018-03-03 05:15:35 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 05:15:37 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-03 05:15:40 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:15:40 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 44
+ERROR - 2018-03-03 05:18:02 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:18:02 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 44
+ERROR - 2018-03-03 05:18:03 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `status` != '-1'
+ERROR - 2018-03-03 05:18:03 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 44
+ERROR - 2018-03-03 05:19:40 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:19:40 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 44
+ERROR - 2018-03-03 05:19:41 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `status` != '-1'
+ERROR - 2018-03-03 05:19:41 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 44
+ERROR - 2018-03-03 05:21:09 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:21:09 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 46
+ERROR - 2018-03-03 05:21:10 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:21:10 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 46
+ERROR - 2018-03-03 05:21:35 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:21:35 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 46
+ERROR - 2018-03-03 05:21:36 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:21:36 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 46
+ERROR - 2018-03-03 05:24:20 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:24:20 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 46
+ERROR - 2018-03-03 05:24:21 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:24:21 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 46
+ERROR - 2018-03-03 05:25:24 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:25:24 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 46
+ERROR - 2018-03-03 05:25:25 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT COUNT(1) AS count
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ERROR - 2018-03-03 05:25:25 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 46
+ERROR - 2018-03-03 05:27:58 --> Query error: Unknown column 'dt.coutry' in 'field list' - Invalid query: SELECT `dt`.`coutry`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:27:58 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:27:59 --> Query error: Unknown column 'dt.coutry' in 'field list' - Invalid query: SELECT `dt`.`coutry`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:27:59 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:28:27 --> Query error: Unknown column 'dt.coutry' in 'field list' - Invalid query: SELECT `dt`.`coutry`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:28:27 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 71
+ERROR - 2018-03-03 05:28:28 --> Query error: Unknown column 'dt.coutry' in 'field list' - Invalid query: SELECT `dt`.`coutry`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:28:28 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 71
+ERROR - 2018-03-03 05:30:44 --> Query error: Unknown column 'dt.coutry' in 'field list' - Invalid query: SELECT `dt`.`coutry`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:30:44 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:30:44 --> Query error: Unknown column 'dt.coutry' in 'field list' - Invalid query: SELECT `dt`.`coutry`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:30:45 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:31:37 --> Query error: Unknown column 'dt.country' in 'field list' - Invalid query: SELECT `dt`.`country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:31:37 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:31:38 --> Query error: Unknown column 'dt.country' in 'field list' - Invalid query: SELECT `dt`.`country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`
+FROM `dictionaries` `dt`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:31:38 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:36:30 --> Query error: Unknown column 'country' in 'field list' - Invalid query: SELECT `country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+WHERE `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:36:30 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 71
+ERROR - 2018-03-03 05:36:31 --> Query error: Unknown column 'country' in 'field list' - Invalid query: SELECT `country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+WHERE `id_country` = '1'
+AND `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:36:31 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 71
+ERROR - 2018-03-03 05:37:08 --> Query error: Unknown column 'country' in 'field list' - Invalid query: SELECT `country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+WHERE `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:37:08 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 71
+ERROR - 2018-03-03 05:37:09 --> Query error: Unknown column 'country' in 'field list' - Invalid query: SELECT `country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+WHERE `id_country` = '1'
+AND `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:37:09 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 71
+ERROR - 2018-03-03 05:37:53 --> Query error: Unknown column 'country' in 'field list' - Invalid query: SELECT `country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+WHERE `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:37:53 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:37:53 --> Query error: Unknown column 'country' in 'field list' - Invalid query: SELECT `country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+WHERE `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:37:53 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:39:31 --> Query error: Unknown column 'dt.id_country' in 'order clause' - Invalid query: SELECT `id_country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+WHERE `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:39:31 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:39:32 --> Query error: Unknown column 'dt.id_country' in 'order clause' - Invalid query: SELECT `id_country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+WHERE `status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:39:32 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:40:42 --> Query error: Unknown column 'dt.id_country' in 'order clause' - Invalid query: SELECT `id_country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+ORDER BY `dt`.`id_country` ASC
+ERROR - 2018-03-03 05:40:42 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:40:42 --> Query error: Unknown column 'dt.id_country' in 'order clause' - Invalid query: SELECT `id_country`, `device`, `code`, `value`, `status`, `entry_time`, `update_time`
+FROM `dictionaries`
+ORDER BY `dt`.`id_country` ASC
+ERROR - 2018-03-03 05:40:42 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 72
+ERROR - 2018-03-03 05:46:04 --> Severity: Parsing Error --> syntax error, unexpected '$this' (T_VARIABLE) C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 52
+ERROR - 2018-03-03 05:46:27 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:46:27 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 74
+ERROR - 2018-03-03 05:46:27 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:46:27 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 74
+ERROR - 2018-03-03 05:47:35 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:47:35 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\master-management\Dictionaries.php 56
+ERROR - 2018-03-03 05:47:35 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\master-management\Dictionaries.php 57
+ERROR - 2018-03-03 05:47:36 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:47:36 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\master-management\Dictionaries.php 56
+ERROR - 2018-03-03 05:47:36 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\master-management\Dictionaries.php 57
+ERROR - 2018-03-03 05:48:44 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:48:45 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:51:55 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:51:55 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:53:11 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '3'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:53:16 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '2'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:53:22 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:53:34 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:53:35 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:56:13 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:56:13 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:59:50 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 05:59:51 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:00:57 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:00:58 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:01:13 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:01:13 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:02:34 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:02:34 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:07:14 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:07:14 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:14:15 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:14:16 --> Severity: Error --> Call to undefined function ptint_r() C:\xampp\htdocs\Gmedia\app\controllers\master-management\Dictionaries.php 33
+ERROR - 2018-03-03 06:14:33 --> Query error: Unknown column 'dt.id_country' in 'field list' - Invalid query: SELECT `dt`.`id_country`, `dt`.`device`, `dt`.`code`, `dt`.`value`, `dt`.`status`, `dt`.`entry_time`, `dt`.`update_time`, `co`.`name` as `name_country`
+FROM `dictionaries` `cu`
+JOIN `countries` `co` ON `dt`.`id_country` = `co`.`id`
+WHERE `dt`.`id_country` = '1'
+AND `dt`.`status` != '-1'
+ORDER BY `dt`.`id_country` ASC
+ LIMIT 10
+ERROR - 2018-03-03 06:19:12 --> Severity: Parsing Error --> syntax error, unexpected 'dt' (T_STRING) C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 71
+ERROR - 2018-03-03 06:19:35 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_dictionaries.php 78

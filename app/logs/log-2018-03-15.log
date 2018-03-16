@@ -1,0 +1,8 @@
+ERROR - 2018-03-15 02:58:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-03-15 02:58:44 --> Unable to connect to the database
+ERROR - 2018-03-15 02:58:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-03-15 02:58:55 --> Unable to connect to the database
+ERROR - 2018-03-15 02:59:05 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Common.php 595
+ERROR - 2018-03-15 03:14:53 --> 404 Page Not Found: Faviconico/index

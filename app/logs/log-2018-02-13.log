@@ -1,0 +1,286 @@
+ERROR - 2018-02-13 02:53:32 --> Severity: Parsing Error --> syntax error, unexpected '$_username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 33
+ERROR - 2018-02-13 03:11:02 --> Severity: Parsing Error --> syntax error, unexpected '$_username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 33
+ERROR - 2018-02-13 04:17:02 --> Severity: Parsing Error --> syntax error, unexpected '$_username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 33
+ERROR - 2018-02-13 04:20:17 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-02-13 04:22:12 --> Severity: Parsing Error --> syntax error, unexpected '$_username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 33
+ERROR - 2018-02-13 04:32:53 --> Severity: Parsing Error --> syntax error, unexpected '$_username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 35
+ERROR - 2018-02-13 04:33:14 --> Severity: Parsing Error --> syntax error, unexpected '$_username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 35
+ERROR - 2018-02-13 04:34:57 --> Severity: Parsing Error --> syntax error, unexpected '$_username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 33
+ERROR - 2018-02-13 04:35:41 --> Severity: Parsing Error --> syntax error, unexpected '$_username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 33
+ERROR - 2018-02-13 04:36:10 --> Severity: Parsing Error --> syntax error, unexpected '$username' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 33
+ERROR - 2018-02-13 04:36:51 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 52
+ERROR - 2018-02-13 04:38:39 --> Severity: Parsing Error --> syntax error, unexpected '=', expecting ')' C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 72
+ERROR - 2018-02-13 04:43:11 --> 404 Page Not Found: Indexhtml/index
+ERROR - 2018-02-13 04:44:35 --> 404 Page Not Found: Backendhtml/index
+ERROR - 2018-02-13 04:44:52 --> 404 Page Not Found: Backendhtml/index
+ERROR - 2018-02-13 04:45:05 --> 404 Page Not Found: Backendhtml/index
+ERROR - 2018-02-13 04:45:16 --> 404 Page Not Found: Backendphp/index
+ERROR - 2018-02-13 04:51:18 --> Severity: Notice --> Undefined property: backend::$model_backend C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 04:51:19 --> Severity: Error --> Call to a member function auth() on a non-object C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 04:51:21 --> Severity: Notice --> Undefined property: backend::$model_backend C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 04:51:21 --> Severity: Error --> Call to a member function auth() on a non-object C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 04:51:23 --> Severity: Notice --> Undefined property: backend::$model_backend C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 04:51:23 --> Severity: Error --> Call to a member function auth() on a non-object C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 04:51:23 --> Severity: Notice --> Undefined property: backend::$model_backend C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 04:51:23 --> Severity: Error --> Call to a member function auth() on a non-object C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 08:49:17 --> Severity: Parsing Error --> syntax error, unexpected '$response' (T_VARIABLE) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 83
+ERROR - 2018-02-13 08:49:20 --> Severity: Parsing Error --> syntax error, unexpected '$response' (T_VARIABLE) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 83
+ERROR - 2018-02-13 08:49:20 --> Severity: Parsing Error --> syntax error, unexpected '$response' (T_VARIABLE) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 83
+ERROR - 2018-02-13 08:49:20 --> Severity: Parsing Error --> syntax error, unexpected '$response' (T_VARIABLE) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 83
+ERROR - 2018-02-13 08:53:16 --> Severity: Parsing Error --> syntax error, unexpected '$response' (T_VARIABLE) C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 83
+ERROR - 2018-02-13 08:55:28 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 08:55:30 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:06:32 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:06:40 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:06:42 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:06:44 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:06:44 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:06:44 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:06:45 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:06:46 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:07:17 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:07:18 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:07:21 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:13:34 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:13:56 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:14:00 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:15:13 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:17:23 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:17:48 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:17:56 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:20:38 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:23:20 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:25:52 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 119
+ERROR - 2018-02-13 09:27:04 --> Severity: Notice --> Undefined property: backend::$model_backend C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 09:27:04 --> Severity: Error --> Call to a member function auth() on a non-object C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 38
+ERROR - 2018-02-13 09:27:59 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-13 09:27:59 --> Unable to connect to the database
+ERROR - 2018-02-13 09:27:59 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-13 09:27:59 --> Unable to connect to the database
+ERROR - 2018-02-13 09:27:59 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-13 09:27:59 --> Unable to connect to the database
+ERROR - 2018-02-13 09:28:00 --> Severity: Error --> Call to a member function query() on a non-object C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 221
+ERROR - 2018-02-13 09:29:56 --> Severity: Notice --> Undefined variable: tableuser C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 23
+ERROR - 2018-02-13 09:29:56 --> Severity: Notice --> Undefined variable: tableusertype C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 24
+ERROR - 2018-02-13 09:29:56 --> Severity: Notice --> Undefined variable: tableemployee C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 25
+ERROR - 2018-02-13 09:29:56 --> Query error: Table 'indofungames_media.us' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `us`
+JOIN `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 09:29:56 --> Severity: Error --> Call to undefined function num_row() C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 29
+ERROR - 2018-02-13 09:30:02 --> Severity: Error --> Call to undefined method backend::redirect() C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 29
+ERROR - 2018-02-13 09:41:57 --> Severity: Notice --> Undefined variable: tableUser C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 23
+ERROR - 2018-02-13 09:41:57 --> Severity: Notice --> Undefined variable: tableUserType C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 24
+ERROR - 2018-02-13 09:41:57 --> Severity: Notice --> Undefined variable: tableemployee C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 25
+ERROR - 2018-02-13 09:41:57 --> Query error: Table 'indofungames_media.us' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `us`
+JOIN `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 09:41:58 --> Severity: Error --> Call to undefined function num_row() C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 29
+ERROR - 2018-02-13 09:45:38 --> Severity: Notice --> Undefined variable: tableuser C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 23
+ERROR - 2018-02-13 09:45:38 --> Severity: Error --> Cannot access empty property C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-02-13 09:48:08 --> Severity: Notice --> Undefined variable: tableuser C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 23
+ERROR - 2018-02-13 09:48:08 --> Severity: Error --> Cannot access empty property C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-02-13 10:04:18 --> Severity: Notice --> Undefined variable: tableuser C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 23
+ERROR - 2018-02-13 10:04:18 --> Severity: Error --> Cannot access empty property C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-02-13 10:08:56 --> Query error: Unknown column 'em.emmail' in 'field list' - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_user` `us`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employee` `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 10:08:56 --> Severity: Error --> Call to undefined function num_row() C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 29
+ERROR - 2018-02-13 10:10:01 --> Query error: Unknown column 'em.emmail' in 'field list' - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_user` `us`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employee` `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 10:10:01 --> Severity: Error --> Call to a member function num_row() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 29
+ERROR - 2018-02-13 10:10:36 --> Query error: Unknown column 'em.emmail' in 'field list' - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_user` `us`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employee` `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 10:10:36 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 29
+ERROR - 2018-02-13 10:15:13 --> Query error: Unknown column 'em.emmail' in 'field list' - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_user` `us`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employee` `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 10:15:13 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 29
+ERROR - 2018-02-13 10:16:34 --> Query error: Unknown column 'em.emmail' in 'field list' - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_user` `us`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employee` `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 10:16:35 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 29
+ERROR - 2018-02-13 10:18:11 --> Query error: Unknown column 'em.emmail' in 'field list' - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_user` `us`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employee` `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 10:18:11 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 29
+ERROR - 2018-02-13 10:20:54 --> Query error: Unknown column 'em.emmail' in 'field list' - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_user` `us`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employee` `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 10:20:54 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 10:21:48 --> Query error: Unknown column 'em.emmail' in 'field list' - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`emmail`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_user` `us`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employee` `em` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'admin'
+ERROR - 2018-02-13 10:21:48 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 31
+ERROR - 2018-02-13 10:23:55 --> Severity: Notice --> Undefined property: backend::$model_backend C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 54
+ERROR - 2018-02-13 10:23:55 --> Severity: Error --> Call to a member function getPrivilege() on a non-object C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 54
+ERROR - 2018-02-13 10:25:19 --> Severity: Notice --> Undefined variable: tableprivilege C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 61
+ERROR - 2018-02-13 10:25:19 --> Severity: Error --> Cannot access empty property C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-02-13 10:26:07 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT COUNT(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`, `cms_privilege_menupm`, `cms_menum`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:26:07 --> Severity: Error --> Call to undefined function num_row() C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 69
+ERROR - 2018-02-13 10:26:32 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT COUNT(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`, `cms_privilege_menupm`, `cms_menum`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:26:32 --> Severity: Error --> Call to undefined function num_rows() C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 69
+ERROR - 2018-02-13 10:27:55 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT COUNT(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`, `cms_privilege_menupm`, `cms_menum`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:27:56 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 69
+ERROR - 2018-02-13 10:32:56 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT COUNT(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`
+JOIN `cms_privilege_menupm` ON `p`.`id`=`pm`.`id_privilege`
+JOIN `cms_menum` ON `m`.`id`=`pm`.`id_menu`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:32:56 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 69
+ERROR - 2018-02-13 10:35:41 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT COUNT(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`
+JOIN `cms_privilege_menupm` ON `p`.`id`=`pm`.`id_privilege`
+JOIN `cms_menum` ON `m`.`id`=`pm`.`id_menu`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:35:41 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 67
+ERROR - 2018-02-13 10:38:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-13 10:38:06 --> Unable to connect to the database
+ERROR - 2018-02-13 10:38:06 --> Severity: Error --> Call to a member function real_escape_string() on a non-object C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 331
+ERROR - 2018-02-13 10:38:11 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT COUNT(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`
+JOIN `cms_privilege_menupm` ON `p`.`id`=`pm`.`id_privilege`
+JOIN `cms_menum` ON `m`.`id`=`pm`.`id_menu`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:38:12 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 67
+ERROR - 2018-02-13 10:38:13 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT COUNT(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`
+JOIN `cms_privilege_menupm` ON `p`.`id`=`pm`.`id_privilege`
+JOIN `cms_menum` ON `m`.`id`=`pm`.`id_menu`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:38:13 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 67
+ERROR - 2018-02-13 10:41:52 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT count(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`
+JOIN `cms_privilege_menupm` ON `p`.`id`=`pm`.`id_privilege`
+JOIN `cms_menum` ON `m`.`id`=`pm`.`id_menu`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:41:52 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 67
+ERROR - 2018-02-13 10:44:52 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT count(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`
+JOIN `cms_privilege_menupm` ON `p`.`id`=`pm`.`id_privilege`
+JOIN `cms_menum` ON `m`.`id`=`pm`.`id_menu`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:44:52 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 67
+ERROR - 2018-02-13 10:53:01 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT count(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`
+JOIN `cms_privilege_menupm` ON `p`.`id`=`pm`.`id_privilege`
+JOIN `cms_menum` ON `m`.`id`=`pm`.`id_menu`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:53:01 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 67
+ERROR - 2018-02-13 10:53:18 --> Query error: Table 'indofungames_media.cms_privilegep' doesn't exist - Invalid query: SELECT `p`.`status`, `p`.`default_menu`, `pm`.`id_privilege`, `pm`.`id_menu`, `pm`.`access`, `m`.`url`, `m`.`name`, `m`.`description`, `m`.`icon`, `m`.`parent`, `m`.`sort`, (SELECT count(1) FROM cms_menu WHERE parent=pm.id_menu) AS child
+FROM `cms_privilegep`
+JOIN `cms_privilege_menupm` ON `p`.`id`=`pm`.`id_privilege`
+JOIN `cms_menum` ON `m`.`id`=`pm`.`id_menu`
+WHERE `m`.`status` = '1'
+AND `p`.`id` = '1'
+ORDER BY `m`.`parent` ASC, `m`.`sort` ASC
+ERROR - 2018-02-13 10:53:18 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 67
+ERROR - 2018-02-13 11:10:13 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 63
+ERROR - 2018-02-13 11:10:13 --> Severity: Notice --> Undefined index: isPartner C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 69
+ERROR - 2018-02-13 11:10:13 --> Severity: Error --> Call to undefined method CI_Session::set_userdaa() C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 79
+ERROR - 2018-02-13 11:12:12 --> Severity: Notice --> Undefined index: isPartner C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 69
+ERROR - 2018-02-13 11:12:12 --> Severity: Error --> Call to undefined method CI_Session::set_userdaa() C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 79
+ERROR - 2018-02-13 11:13:07 --> Severity: Error --> Call to undefined method CI_Session::set_userdaa() C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 78
+ERROR - 2018-02-13 11:13:58 --> 404 Page Not Found: Parameters/usertype
+ERROR - 2018-02-13 11:14:25 --> 404 Page Not Found: Parameters/usertype
+ERROR - 2018-02-13 11:18:23 --> 404 Page Not Found: User_management/employees
+ERROR - 2018-02-13 11:19:53 --> Query error: Table 'indofungames_media.cms_userus' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`email`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_userus`
+JOIN `cms_user_typeut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employeeem` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'kurniawan'
+ERROR - 2018-02-13 11:19:53 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 11:19:59 --> Query error: Table 'indofungames_media.cms_userus' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`email`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_userus`
+JOIN `cms_user_typeut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employeeem` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'kurniawan'
+ERROR - 2018-02-13 11:19:59 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 11:20:05 --> Query error: Table 'indofungames_media.cms_userus' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`email`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_userus`
+JOIN `cms_user_typeut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employeeem` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'kurniawan'
+ERROR - 2018-02-13 11:20:05 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 11:20:06 --> Query error: Table 'indofungames_media.cms_userus' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`email`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_userus`
+JOIN `cms_user_typeut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employeeem` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'kurniawan'
+ERROR - 2018-02-13 11:20:06 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 11:20:06 --> Query error: Table 'indofungames_media.cms_userus' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`email`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_userus`
+JOIN `cms_user_typeut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employeeem` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'kurniawan'
+ERROR - 2018-02-13 11:20:07 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 11:20:07 --> Query error: Table 'indofungames_media.cms_userus' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`email`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_userus`
+JOIN `cms_user_typeut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employeeem` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'kurniawan'
+ERROR - 2018-02-13 11:20:07 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 11:20:48 --> Query error: Table 'indofungames_media.cms_userus' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`email`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_userus`
+JOIN `cms_user_typeut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employeeem` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'kurniawan'
+ERROR - 2018-02-13 11:20:48 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 11:21:22 --> Query error: Table 'indofungames_media.cms_userus' doesn't exist - Invalid query: SELECT `us`.`id`, `us`.`id_employee`, `us`.`id_user_type`, `us`.`id_privilege`, `us`.`username`, `us`.`userpass`, `us`.`status` AS `status_user`, `em`.`name` AS `name_employe`, `em`.`account_id`, `em`.`email`, `em`.`avatar_thumb`, `em`.`status` AS `status_employee`, `ut`.`name` AS `name_user_type`, `ut`.`isAdmin`, `ut`.`status` AS `status_user_type`
+FROM `cms_userus`
+JOIN `cms_user_typeut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_employeeem` ON `us`.`id_employee` = `em`.`id`
+WHERE `us`.`username` = 'kurniawan'
+ERROR - 2018-02-13 11:21:22 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\Model_backend_login.php 30
+ERROR - 2018-02-13 11:22:43 --> 404 Page Not Found: User_management/employees

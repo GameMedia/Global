@@ -1,0 +1,301 @@
+ERROR - 2018-03-01 02:56:21 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-03-01 03:22:38 --> Severity: Parsing Error --> syntax error, unexpected '{' C:\xampp\htdocs\Gmedia\app\controllers\management-content\Content_types.php 78
+ERROR - 2018-03-01 03:22:53 --> Severity: Parsing Error --> syntax error, unexpected '{' C:\xampp\htdocs\Gmedia\app\controllers\management-content\Content_types.php 78
+ERROR - 2018-03-01 03:23:16 --> Severity: Parsing Error --> syntax error, unexpected '{' C:\xampp\htdocs\Gmedia\app\controllers\management-content\Content_types.php 78
+ERROR - 2018-03-01 03:23:38 --> Severity: Parsing Error --> syntax error, unexpected '{' C:\xampp\htdocs\Gmedia\app\controllers\management-content\Content_types.php 78
+ERROR - 2018-03-01 03:25:10 --> 404 Page Not Found: management-content/Content_types/saveContent_Types
+ERROR - 2018-03-01 03:26:09 --> 404 Page Not Found: management-content/Content_types/saveContent_Types
+ERROR - 2018-03-01 03:28:32 --> Severity: Warning --> Missing argument 1 for Content_types::checkUI_CT() C:\xampp\htdocs\Gmedia\app\controllers\management-content\Content_types.php 74
+ERROR - 2018-03-01 03:28:32 --> Query error: Table 'indofungames_media.content_type' doesn't exist - Invalid query: SELECT `id`
+FROM `content_type`
+WHERE `id` = ''
+ERROR - 2018-03-01 03:28:33 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 23
+ERROR - 2018-03-01 03:29:25 --> Query error: Table 'indofungames_media.content_type' doesn't exist - Invalid query: SELECT `id`
+FROM `content_type`
+WHERE `id` = ''
+ERROR - 2018-03-01 03:29:25 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 23
+ERROR - 2018-03-01 03:39:47 --> Query error: Table 'indofungames_media.content_types' doesn't exist - Invalid query: SELECT `id`
+FROM `content_types`
+WHERE `id` = ''
+ERROR - 2018-03-01 03:39:47 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 23
+ERROR - 2018-03-01 03:42:37 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:42:37 --> Severity: Notice --> Undefined property: Content_types::$Array C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-03-01 03:42:37 --> Severity: Error --> Call to a member function escape_str() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:44:42 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:44:42 --> Severity: Notice --> Undefined property: Content_types::$Array C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-03-01 03:44:42 --> Severity: Error --> Call to a member function escape_str() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:46:08 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:46:08 --> Severity: Notice --> Undefined property: Content_types::$Array C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-03-01 03:46:08 --> Severity: Error --> Call to a member function escape_str() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:52:57 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:52:57 --> Severity: Notice --> Undefined property: Content_types::$Array C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-03-01 03:52:57 --> Severity: Error --> Call to a member function escape_str() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:53:58 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:53:58 --> Severity: Notice --> Undefined property: Content_types::$Array C:\xampp\htdocs\Gmedia\sys_ci_3.0\core\Model.php 77
+ERROR - 2018-03-01 03:53:58 --> Severity: Error --> Call to a member function escape_str() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\Model_global.php 54
+ERROR - 2018-03-01 03:57:31 --> Severity: Notice --> Undefined index: succces C:\xampp\htdocs\Gmedia\app\controllers\management-content\Content_types.php 109
+ERROR - 2018-03-01 03:59:08 --> Severity: Notice --> Undefined index: succces C:\xampp\htdocs\Gmedia\app\controllers\management-content\Content_types.php 109
+ERROR - 2018-03-01 04:00:25 --> Query error: Duplicate entry '2222' for key 'name' - Invalid query: INSERT INTO `contents_types` (`code`, `name`, `description`, `status`, `entry_by`, `entry_time`) VALUES ('tes1223', '2222', 'yihaa', '1', '3', '2018-03-01 04:00:25')
+ERROR - 2018-03-01 04:04:35 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010404355532', '3', 'parameters/globalparameter', 'Save', '{\\\"id\\\":\\\"1231231231\\\",\\\"value\\\":\\\"1231231\\\",\\\"description\\\":\\\"1222222222222222\\\"}', '{\\\"id\\\":0,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '3', '2018-03-01 04:04:35')
+ERROR - 2018-03-01 04:05:51 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010405517435', '3', 'parameters/globalparameter', 'Delete', '{\\\"id\\\":\\\"1231231231\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '3', '2018-03-01 04:05:51')
+ERROR - 2018-03-01 04:06:21 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010406218148', '3', 'management-content/content_types', 'Save', '{\\\"id\\\":\\\"\\\",\\\"code\\\":\\\"xxxxxxxx\\\",\\\"name\\\":\\\"xxxcc\\\",\\\"description\\\":\\\"ccccvv\\\",\\\"status\\\":\\\"0\\\"}', '{\\\"id\\\":7,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '3', '2018-03-01 04:06:21')
+ERROR - 2018-03-01 04:06:33 --> Query error: Duplicate entry 'xxxcc' for key 'name' - Invalid query: INSERT INTO `contents_types` (`code`, `name`, `description`, `status`, `entry_by`, `entry_time`) VALUES ('xxxxxxxx', 'xxxcc', 'ccccvv', '0', '3', '2018-03-01 04:06:33')
+ERROR - 2018-03-01 04:06:33 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010406333671', '3', 'management-content/content_types', 'Save', '', '{\\\"success\\\":false,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Duplicate entry \\\'xxxcc\\\' for key \\\'name\\\'\\\"}', '::1', '3', '2018-03-01 04:06:33')
+ERROR - 2018-03-01 04:07:08 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010407088762', '3', 'management-content/content_types', 'Save', '{\\\"id\\\":\\\"\\\",\\\"code\\\":\\\"xx233333333331\\\",\\\"name\\\":\\\"111111111111111113\\\",\\\"description\\\":\\\"ccccvv222\\\",\\\"status\\\":\\\"0\\\"}', '{\\\"id\\\":9,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '3', '2018-03-01 04:07:08')
+ERROR - 2018-03-01 04:08:14 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010408145094', '3', 'management-content/content_types', 'Save', '{\\\"id\\\":\\\"\\\",\\\"code\\\":\\\"asdasdasdad\\\",\\\"name\\\":\\\"00000000000099\\\",\\\"description\\\":\\\"999999999999900\\\",\\\"status\\\":\\\"0\\\"}', '{\\\"id\\\":10,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '3', '2018-03-01 04:08:14')
+ERROR - 2018-03-01 04:08:34 --> 404 Page Not Found: management-content/Content_type/deleteContent_Types
+ERROR - 2018-03-01 04:08:53 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010408536624', '3', 'management-content/content_types', 'Update', '{\\\"id\\\":\\\"3\\\",\\\"code\\\":\\\"nono2222\\\",\\\"name\\\":\\\"nono111\\\",\\\"description\\\":\\\"nono\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '3', '2018-03-01 04:08:53')
+ERROR - 2018-03-01 04:12:35 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010412350118', '3', 'management-content/content_types', 'Save', '{\\\"id\\\":\\\"\\\",\\\"code\\\":\\\"ooopp\\\",\\\"name\\\":\\\"ppooo\\\",\\\"description\\\":\\\"lokkol\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"id\\\":11,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '3', '2018-03-01 04:12:35')
+ERROR - 2018-03-01 04:12:49 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010412498431', '3', 'management-content/content_types', 'Update', '{\\\"id\\\":\\\"10\\\",\\\"code\\\":\\\"asdasdasdad\\\",\\\"name\\\":\\\"00ss\\\",\\\"description\\\":\\\"999999999999900\\\",\\\"status\\\":\\\"0\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '3', '2018-03-01 04:12:49')
+ERROR - 2018-03-01 04:20:48 --> 404 Page Not Found: management-content/Content_type/deleteContent_Types
+ERROR - 2018-03-01 04:25:10 --> 404 Page Not Found: management-content/Content_type/deleteContent_Types
+ERROR - 2018-03-01 04:25:46 --> 404 Page Not Found: management-content/Content_type/deleteContent_Types
+ERROR - 2018-03-01 04:29:48 --> 404 Page Not Found: management-content/Content_type/deleteContent_Types
+ERROR - 2018-03-01 04:35:31 --> 404 Page Not Found: management-content/Content_type/deleteContent_Types
+ERROR - 2018-03-01 04:37:26 --> 404 Page Not Found: management-content/Content_type/deleteContent_Types
+ERROR - 2018-03-01 04:40:00 --> 404 Page Not Found: management-content/Content_type/deleteContent_Types
+ERROR - 2018-03-01 04:42:46 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803010442449596', '3', 'management-content/content_types', 'Delete', '{\\\"id\\\":\\\"10\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '3', '2018-03-01 04:42:44')
+ERROR - 2018-03-01 05:04:59 --> Severity: Warning --> Missing argument 1 for Model_content_types::loadContent_TypesSelect(), called in C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php on line 17 and defined C:\xampp\htdocs\Gmedia\app\models\backend\management-content\Model_content_types.php 128
+ERROR - 2018-03-01 05:05:05 --> Severity: Notice --> Undefined variable: types C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 34
+ERROR - 2018-03-01 05:05:05 --> Severity: Notice --> Undefined variable: types C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 54
+ERROR - 2018-03-01 05:19:25 --> Severity: Warning --> Missing argument 1 for Model_content_types::loadContent_TypesSelect(), called in C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php on line 17 and defined C:\xampp\htdocs\Gmedia\app\models\backend\management-content\Model_content_types.php 128
+ERROR - 2018-03-01 05:19:31 --> Severity: Notice --> Undefined variable: types C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 34
+ERROR - 2018-03-01 05:19:31 --> Severity: Notice --> Undefined variable: types C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 54
+ERROR - 2018-03-01 07:55:11 --> Severity: Warning --> Missing argument 1 for Model_content_types::loadContent_TypesSelect(), called in C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php on line 17 and defined C:\xampp\htdocs\Gmedia\app\models\backend\management-content\Model_content_types.php 128
+ERROR - 2018-03-01 07:55:17 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 07:55:17 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 07:55:38 --> Severity: Warning --> Missing argument 1 for Model_content_types::loadContent_TypesSelect(), called in C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php on line 17 and defined C:\xampp\htdocs\Gmedia\app\models\backend\management-content\Model_content_types.php 128
+ERROR - 2018-03-01 07:55:43 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 07:55:43 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 07:56:57 --> Severity: Warning --> Missing argument 1 for Model_content_types::loadContent_TypesSelect(), called in C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php on line 17 and defined C:\xampp\htdocs\Gmedia\app\models\backend\management-content\Model_content_types.php 128
+ERROR - 2018-03-01 07:57:03 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 07:57:03 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 07:57:12 --> Severity: Warning --> Missing argument 1 for Model_content_types::loadContent_TypesSelect(), called in C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php on line 17 and defined C:\xampp\htdocs\Gmedia\app\models\backend\management-content\Model_content_types.php 128
+ERROR - 2018-03-01 07:57:18 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 07:57:18 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 07:57:55 --> Severity: Warning --> Missing argument 1 for Model_content_types::loadContent_TypesSelect(), called in C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php on line 17 and defined C:\xampp\htdocs\Gmedia\app\models\backend\management-content\Model_content_types.php 128
+ERROR - 2018-03-01 07:58:00 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 07:58:00 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:04:04 --> Severity: Warning --> Missing argument 1 for Model_content_types::loadContent_TypesSelect(), called in C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php on line 17 and defined C:\xampp\htdocs\Gmedia\app\models\backend\management-content\Model_content_types.php 128
+ERROR - 2018-03-01 08:04:10 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 08:04:10 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:05:38 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 08:05:38 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:07:00 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 08:07:00 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:24:11 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 08:24:11 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:24:54 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 08:24:55 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:27:02 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 08:27:02 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:33:49 --> Severity: Parsing Error --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 86
+ERROR - 2018-03-01 08:34:58 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 08:34:58 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:36:15 --> Query error: Unknown column 'g.type' in 'field list' - Invalid query: SELECT `g`.`id`, `g`.`type`, `g`.`name` AS `name_galleri`, `g`.`url_thumb`, `g`.`url_ori`, `g`.`status`, `g`.`entry_time`, `g`.`update_time`, `ct`.`name` AS `name_content_type`
+FROM `galleries` `g`
+JOIN `contents_types` `ct` ON `g`.`id_content_type` = `ct`.`id`
+WHERE `g`.`status` != '-1'
+ORDER BY `ct`.`name` ASC
+ LIMIT 10
+ERROR - 2018-03-01 08:36:15 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 66
+ERROR - 2018-03-01 08:45:59 --> 404 Page Not Found: management-content/Contents_languages/index
+ERROR - 2018-03-01 08:52:37 --> 404 Page Not Found: master-management/Countries/index
+ERROR - 2018-03-01 08:55:21 --> Severity: Notice --> Undefined variable: buttonview C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 47
+ERROR - 2018-03-01 09:35:46 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-03-01 09:47:30 --> 404 Page Not Found: master-management/Galleries/getGalleriesData
+ERROR - 2018-03-01 09:48:49 --> 404 Page Not Found: master-management/Galleries/getGalleriesData
+ERROR - 2018-03-01 10:01:31 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:01:31 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:01:31 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:01:32 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:01:33 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:04:58 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:04:59 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:00 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:00 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:00 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:00 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:00 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:48 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:49 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: name_content_type C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 37
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: name_galleri C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 38
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: status C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 40
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 41
+ERROR - 2018-03-01 10:05:50 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 45
+ERROR - 2018-03-01 10:11:36 --> 404 Page Not Found: Assets/galleries
+ERROR - 2018-03-01 10:52:31 --> Severity: Parsing Error --> syntax error, unexpected '$this' (T_VARIABLE) C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 94
+ERROR - 2018-03-01 10:53:28 --> 404 Page Not Found: Null/index
+ERROR - 2018-03-01 10:53:35 --> 404 Page Not Found: Null/index
+ERROR - 2018-03-01 10:53:51 --> 404 Page Not Found: Null/index
+ERROR - 2018-03-01 10:54:54 --> 404 Page Not Found: Null/index
+ERROR - 2018-03-01 10:57:20 --> 404 Page Not Found: Null/index
+ERROR - 2018-03-01 10:59:59 --> 404 Page Not Found: Undefinednull/index
+ERROR - 2018-03-01 11:08:23 --> 404 Page Not Found: Undefinednull/index
+ERROR - 2018-03-01 11:11:21 --> 404 Page Not Found: Null/index
+ERROR - 2018-03-01 11:48:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-03-01 11:48:29 --> Unable to connect to the database
+ERROR - 2018-03-01 11:51:51 --> Severity: Notice --> Undefined index: id_content_types C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_galleries.php 105

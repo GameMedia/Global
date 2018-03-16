@@ -1,0 +1,210 @@
+<!-- IF EMOTINYMCE_ENABLE -->
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/emo_tinymce.js"></script>
+<script type="text/javascript">
+
+var bbcode_images_path = "{T_IMAGES_PATH}bbcodes/";
+var bcaption = {EMOTINYMCE_CAPTION};
+var btip = {EMOTINYMCE_TIP};
+var bbparser_htmlconv_off = false;
+var bbparser_bbcodeconv_off = false;
+
+var bbtags2 = new Array('[b]','[/b]','[i]','[/i]','[u]','[/u]','[quote]','[/quote]','[code]','[/code]','[list]','[/list]','[list=]','[/list]','[img]','[/img]','[url]','[/url]','[flash=]', '[/flash]','[size=]','[/size]'<!-- BEGIN custom_tags -->, {custom_tags.BBCODE_NAME}<!-- END custom_tags -->);
+
+var la_arr = new Array('{LA_BBCODE_Q_HELP}','{LA_BBCODE_C_HELP}','{LA_BBCODE_L_HELP}','{LA_BBCODE_O_HELP}','{LA_BBCODE_LISTITEM_HELP}','{LA_BBCODE_D_HELP}');
+
+<!-- IF not S_QUICK_REPLY -->
+var text_changed = false;
+var check_changes = false;
+var change_warn_text = '{L_EMOTINYMCE_CHANGED_TEXT}';
+
+if(change_warn_text=='{ EMOTINYMCE_CHANGED_TEXT }')
+	change_warn_text = 'Changes you made in the editor will be lost.';
+
+window.onbeforeunload = function()
+{
+	if(text_changed && check_changes)
+		return change_warn_text;
+}
+<!-- ENDIF -->
+
+function custom_phpbb_html2bbcode(s)
+{
+		s = (s[0]!=' ' || s==''?' ':'')+s+(s[s.length-1]!=' ' || s==''?' ':'');
+
+		<!-- BEGIN smiley -->
+		s = build_bbcode_regex(s,"<img src=\""+escapeReg("{smiley.SMILEY_IMG}")+"\"(.*?)\/>"," {smiley.A_SMILEY_CODE} ");
+		<!-- END smiley	-->
+		// extra
+		<!-- BEGIN smileyall -->
+		s = build_bbcode_regex(s,"<img src=\""+escapeReg("{smileyall.SMILEY_IMG}")+"\"(.*?)\/>"," {smileyall.A_SMILEY_CODE} ");
+		<!-- END smileyall	-->
+
+		return s; 
+}
+
+function custom_phpbb_bbcode2html(s)
+{
+		s = (s[0]!=' ' || s==''?' ':'')+s+(s[s.length-1]!=' ' || s==''?' ':'');
+
+		<!-- BEGIN smiley -->
+		s = build_bbcode_regex(s,escapeReg(" {smiley.A_SMILEY_CODE} ")," <img src=\"{smiley.SMILEY_IMG}\" /> ");
+		<!-- END smiley	-->
+		// extra
+		<!-- BEGIN smileyall -->
+		s = build_bbcode_regex(s,escapeReg(" {smileyall.A_SMILEY_CODE} ")," <img src=\"{smileyall.SMILEY_IMG}\" /> ");
+		<!-- END smileyall	-->
+
+		return s; 
+}
+
+
+editor = tinyMCE.init({
+		theme_advanced_font_sizes : "Tiny=50%,Small=85%,Normal=100%,Large=150%,Huge=200%",
+		mode : "none",
+<!-- IF S_QUICK_REPLY -->
+	<!-- IF EMOTINYMCE_WIDTH > 0 -->
+		width : {EMOTINYMCE_WIDTH},
+	<!-- ELSE -->
+		width : 720,
+	<!-- ENDIF  -->
+	<!-- IF EMOTINYMCE_HEIGHT > 0 -->
+		height : {EMOTINYMCE_HEIGHT},
+	<!-- ELSE -->
+		height : 320,
+	<!-- ENDIF  -->
+<!-- ELSE -->
+	<!-- IF EMOTINYMCE_WIDTH > 0 -->
+		width : {EMOTINYMCE_WIDTH},
+	<!-- ENDIF  -->
+	<!-- IF EMOTINYMCE_HEIGHT > 0 -->
+		height : {EMOTINYMCE_HEIGHT},
+	<!-- ELSE -->
+		height : 320,
+	<!-- ENDIF  -->
+<!-- ENDIF -->
+		//theme_advanced_resizing : true,
+		convert_urls : false,
+		theme : "advanced",
+<!-- IF EMOTINYMCE_RTL -->
+		directionality : "rtl",
+		theme_advanced_toolbar_align : "right",
+<!-- ENDIF  -->
+<!-- IF EMOTINYMCE_LANG -->
+		language : "{EMOTINYMCE_LANG}",
+<!-- ENDIF  -->
+<!-- IF EMOTINYMCE_SKIN != "" -->
+		skin : "{EMOTINYMCE_SKIN}",
+<!-- IF EMOTINYMCE_SKIN_VAR != "" -->
+		skin_variant : "{EMOTINYMCE_SKIN_VAR}",
+<!-- ENDIF  -->
+<!-- ENDIF  -->
+		plugins: "fullscreen,paste,phpbbcode<!-- IF EMOTINYMCE_SPELLCHECKER -->,spellchecker<!-- ENDIF  -->",
+		theme_advanced_buttons1 : "code,fullscreen,bold,italic,underline,fontsizeselect,forecolor,<!-- IF S_BBCODE_URL -->link,unlink,<!-- ENDIF --><!-- IF S_BBCODE_IMG -->image,<!-- ENDIF -->cut,copy,paste,pasteword,pastetext,removeformat,undo,redo<!-- IF EMOTINYMCE_SPELLCHECKER -->,spellchecker<!-- ENDIF -->",
+		theme_advanced_buttons2 : "quote,code2,list,list2,item,<!-- IF S_BBCODE_FLASH -->flash<!-- ENDIF -->",
+		theme_advanced_buttons3 : "<!-- BEGIN custom_tags -->{custom_tags.BBCODE_TAG},<!-- END custom_tags -->",
+		entity_encoding : "raw",
+		add_unload_trigger : false,
+		remove_linebreaks : false,
+		inline_styles : false,
+		convert_fonts_to_spans : false,
+		force_br_newlines : true,
+		force_p_newlines : false,
+		forced_root_block : '',
+<!-- IF  S_QUICK_REPLY and EMOTINYMCE_QUICKQUOTE -->
+		relative_urls : false,
+		remove_script_host : false,
+		convert_urls : true,
+<!-- ENDIF  -->
+		
+        paste_preprocess : function(pl, o) {
+        	o.content = clean_paste(o.content);
+        },
+		
+		setup : function(ed) {
+				
+				add_default_buttons(ed,la_arr,bcaption,btip);
+
+<!-- IF not S_QUICK_REPLY -->
+				ed.onChange.add(function(ed, l) {
+					if(check_changes) {
+						text_changed = true;
+					}
+				});
+				
+				ed.onInit.add(function(ed) {
+					check_changes = true;
+				});
+
+				ed.onSubmit.add(function(ed) {
+					check_changes = false;
+				});
+<!-- ENDIF -->
+
+				ed.onUndo.add(function(sender, level) {
+					bbparser_htmlconv_off = true;
+					ed.setContent(ed.getContent());
+					bbparser_htmlconv_off = false;
+				});
+				
+				ed.onRedo.add(function(sender, level) {
+					bbparser_htmlconv_off = true;
+					ed.setContent(ed.getContent());
+					bbparser_htmlconv_off = false;
+				});
+
+<!-- BEGIN custom_tags -->
+		        ed.addButton('{custom_tags.BBCODE_TAG}', {
+		        title : (btip == 1 ? '{custom_tags.BBCODE_HELPLINE}' : ''),
+		        label : (bcaption == 1 ? '{custom_tags.BBCODE_TAG}' : ''),
+		        image : bbcode_images_path+'{custom_tags.BBCODE_TAG}.gif',
+		        onclick : function() {
+		        	insert_bbcode(ed,bbtags2[{custom_tags.BBCODE_ID}],bbtags2[{custom_tags.BBCODE_ID}+1],false);
+		        }
+		        });
+<!-- END custom_tags -->
+
+		}
+});
+
+if(({S_BBCODE_ALLOWED}==1) && ({EMOTINYMCE_ENABLE}==1))
+{
+	tinyMCE.execCommand("mceAddControl", true, "message");
+}
+
+</script>
+<!-- IF EMOTINYMCE_QUICKQUOTE -->
+<script type="text/javascript">
+
+function reply_with_quote(id,author)
+{
+	
+	var offset_top = document.getElementById('qr_editor_tbl').offsetTop;
+	
+	window.scroll(0,offset_top);
+	
+	
+	if(id!='')
+	{
+
+		var reply_content = document.getElementById('post_content_'+id).innerHTML.replace(/<blockquote[^>]*>(.*)<\/blockquote>/ig,'');
+	
+		tinyMCE.activeEditor.selection.setContent((tinyMCE.activeEditor.getContent()!=''?'<br /><br />':'')+'[quote=\"'+author+'\"]'+reply_content+'[/quote]<br /><br />');
+	
+
+	} else 
+	{
+	
+		tinyMCE.activeEditor.selection.setContent('');
+	
+	}
+	
+	
+	tinymce.execCommand('mceFocus',false,'message');
+	
+	return false;
+}
+
+</script>
+<!-- ENDIF -->
+<!-- ENDIF -->

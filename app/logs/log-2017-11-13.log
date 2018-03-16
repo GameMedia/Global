@@ -1,0 +1,43 @@
+ERROR - 2017-11-13 10:46:33 --> Severity: error --> Exception: Call to undefined method model_verify::loadVerifyData() /var/www/me.indofun/app/controllers/Verify.php 17
+ERROR - 2017-11-13 10:46:33 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun/sys/core/Common.php on line 658 and defined in /var/www/me.indofun/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun/sys/core/Exceptions.php 190
+ERROR - 2017-11-13 10:48:26 --> Severity: error --> Exception: Call to undefined method model_verify::loadVerifyData() /var/www/me.indofun/app/controllers/Verify.php 17
+ERROR - 2017-11-13 10:48:26 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun/sys/core/Common.php on line 658 and defined in /var/www/me.indofun/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun/sys/core/Exceptions.php 190
+ERROR - 2017-11-13 10:54:55 --> Severity: error --> Exception: Call to undefined method model_verify::loadVerifyData() /var/www/me.indofun/app/controllers/Verify.php 17
+ERROR - 2017-11-13 10:54:55 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun/sys/core/Common.php on line 658 and defined in /var/www/me.indofun/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun/sys/core/Exceptions.php 190
+ERROR - 2017-11-13 11:25:58 --> Severity: error --> Exception: Call to undefined method model_verify::loadVerifyData() /var/www/me.indofun/app/controllers/Verify.php 17
+ERROR - 2017-11-13 11:25:58 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun/sys/core/Common.php on line 658 and defined in /var/www/me.indofun/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun/sys/core/Exceptions.php 190
+ERROR - 2017-11-13 11:26:26 --> Severity: Notice --> Undefined variable: code /var/www/me.indofun/app/views/frontend/ifun/view_verify.php 5
+ERROR - 2017-11-13 11:26:26 --> Severity: Notice --> Undefined variable: code /var/www/me.indofun/app/views/frontend/ifun/view_verify.php 7
+ERROR - 2017-11-13 11:26:26 --> Severity: Notice --> Undefined variable: code /var/www/me.indofun/app/views/frontend/ifun/view_verify.php 9
+ERROR - 2017-11-13 11:26:26 --> Severity: Notice --> Undefined variable: code /var/www/me.indofun/app/views/frontend/ifun/view_verify.php 11
+ERROR - 2017-11-13 11:26:50 --> Severity: Notice --> Undefined variable: code /var/www/me.indofun/app/views/frontend/ifun/view_verify.php 5
+ERROR - 2017-11-13 11:26:50 --> Severity: Notice --> Undefined variable: code /var/www/me.indofun/app/views/frontend/ifun/view_verify.php 7
+ERROR - 2017-11-13 11:26:50 --> Severity: Notice --> Undefined variable: code /var/www/me.indofun/app/views/frontend/ifun/view_verify.php 9
+ERROR - 2017-11-13 11:26:50 --> Severity: Notice --> Undefined variable: code /var/www/me.indofun/app/views/frontend/ifun/view_verify.php 11
+ERROR - 2017-11-13 11:33:51 --> Severity: error --> Exception: Call to undefined method model_verify::loadVerifyData() /var/www/me.indofun/app/controllers/Verify.php 17
+ERROR - 2017-11-13 11:33:51 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun/sys/core/Common.php on line 658 and defined in /var/www/me.indofun/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun/sys/core/Exceptions.php 190

@@ -1,0 +1,72 @@
+INFO - 2016-11-24 15:32:05 --> Config Class Initialized
+INFO - 2016-11-24 15:32:05 --> Hooks Class Initialized
+DEBUG - 2016-11-24 15:32:05 --> UTF-8 Support Enabled
+INFO - 2016-11-24 15:32:05 --> Utf8 Class Initialized
+INFO - 2016-11-24 15:32:05 --> URI Class Initialized
+DEBUG - 2016-11-24 15:32:05 --> No URI present. Default controller set.
+INFO - 2016-11-24 15:32:05 --> Router Class Initialized
+INFO - 2016-11-24 15:32:05 --> Output Class Initialized
+INFO - 2016-11-24 15:32:05 --> Security Class Initialized
+DEBUG - 2016-11-24 15:32:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-24 15:32:05 --> Input Class Initialized
+INFO - 2016-11-24 15:32:06 --> Language Class Initialized
+INFO - 2016-11-24 15:32:06 --> Loader Class Initialized
+INFO - 2016-11-24 15:32:06 --> Helper loaded: url_helper
+INFO - 2016-11-24 15:32:06 --> Database Driver Class Initialized
+INFO - 2016-11-24 15:32:06 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-24 15:32:06 --> Model Class Initialized
+INFO - 2016-11-24 15:32:06 --> Model Class Initialized
+INFO - 2016-11-24 15:32:06 --> Database Driver Class Initialized
+INFO - 2016-11-24 15:32:06 --> Controller Class Initialized
+INFO - 2016-11-24 15:32:06 --> Model Class Initialized
+INFO - 2016-11-24 15:32:06 --> Database Driver Class Initialized
+INFO - 2016-11-24 15:32:06 --> Model Class Initialized
+INFO - 2016-11-24 15:32:06 --> Database Driver Class Initialized
+INFO - 2016-11-24 15:32:06 --> Model Class Initialized
+INFO - 2016-11-24 15:32:06 --> Database Driver Class Initialized
+INFO - 2016-11-24 15:32:06 --> Database Driver Class Initialized
+INFO - 2016-11-24 15:32:06 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_header.php
+INFO - 2016-11-24 15:32:06 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_pageheader.php
+INFO - 2016-11-24 15:32:06 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/un/view_home.php
+INFO - 2016-11-24 15:32:06 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_pagefooter.php
+INFO - 2016-11-24 15:32:06 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_scripts.php
+INFO - 2016-11-24 15:32:06 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_footer.php
+INFO - 2016-11-24 15:32:06 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/main.php
+INFO - 2016-11-24 15:32:06 --> Final output sent to browser
+DEBUG - 2016-11-24 15:32:06 --> Total execution time: 0.1435
+INFO - 2016-11-24 20:52:08 --> Config Class Initialized
+INFO - 2016-11-24 20:52:08 --> Hooks Class Initialized
+DEBUG - 2016-11-24 20:52:08 --> UTF-8 Support Enabled
+INFO - 2016-11-24 20:52:08 --> Utf8 Class Initialized
+INFO - 2016-11-24 20:52:09 --> URI Class Initialized
+DEBUG - 2016-11-24 20:52:09 --> No URI present. Default controller set.
+INFO - 2016-11-24 20:52:09 --> Router Class Initialized
+INFO - 2016-11-24 20:52:09 --> Output Class Initialized
+INFO - 2016-11-24 20:52:09 --> Security Class Initialized
+DEBUG - 2016-11-24 20:52:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-24 20:52:09 --> Input Class Initialized
+INFO - 2016-11-24 20:52:09 --> Language Class Initialized
+INFO - 2016-11-24 20:52:09 --> Loader Class Initialized
+INFO - 2016-11-24 20:52:09 --> Helper loaded: url_helper
+INFO - 2016-11-24 20:52:09 --> Database Driver Class Initialized
+INFO - 2016-11-24 20:52:09 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-24 20:52:09 --> Model Class Initialized
+INFO - 2016-11-24 20:52:09 --> Model Class Initialized
+INFO - 2016-11-24 20:52:09 --> Database Driver Class Initialized
+INFO - 2016-11-24 20:52:09 --> Controller Class Initialized
+INFO - 2016-11-24 20:52:09 --> Model Class Initialized
+INFO - 2016-11-24 20:52:09 --> Database Driver Class Initialized
+INFO - 2016-11-24 20:52:09 --> Model Class Initialized
+INFO - 2016-11-24 20:52:09 --> Database Driver Class Initialized
+INFO - 2016-11-24 20:52:09 --> Model Class Initialized
+INFO - 2016-11-24 20:52:09 --> Database Driver Class Initialized
+INFO - 2016-11-24 20:52:09 --> Database Driver Class Initialized
+INFO - 2016-11-24 20:52:09 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_header.php
+INFO - 2016-11-24 20:52:09 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_pageheader.php
+INFO - 2016-11-24 20:52:09 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/un/view_home.php
+INFO - 2016-11-24 20:52:09 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_pagefooter.php
+INFO - 2016-11-24 20:52:09 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_scripts.php
+INFO - 2016-11-24 20:52:09 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/_footer.php
+INFO - 2016-11-24 20:52:09 --> File loaded: /var/www/html/gold-bridge/app/views/frontend/layout/un/main.php
+INFO - 2016-11-24 20:52:09 --> Final output sent to browser
+DEBUG - 2016-11-24 20:52:09 --> Total execution time: 0.1194

@@ -1,0 +1,317 @@
+ERROR - 2018-02-20 02:41:44 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-02-20 02:50:04 --> 404 Page Not Found: User_management/employees
+ERROR - 2018-02-20 03:23:08 --> 404 Page Not Found: user-management/Employees/index
+ERROR - 2018-02-20 03:25:55 --> 404 Page Not Found: user-management/Employee/index
+ERROR - 2018-02-20 04:08:47 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 20
+ERROR - 2018-02-20 04:20:58 --> Severity: Parsing Error --> syntax error, unexpected ')' C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 13
+ERROR - 2018-02-20 04:25:02 --> Severity: Notice --> Undefined index: base_url_index C:\xampp\htdocs\Gmedia\app\controllers\Backend.php 13
+ERROR - 2018-02-20 04:25:02 --> Severity: Notice --> Undefined variable: globalParameter C:\xampp\htdocs\Gmedia\app\views\backend\metronic\view_login.php 10
+ERROR - 2018-02-20 04:25:02 --> Severity: Notice --> Undefined variable: base_url C:\xampp\htdocs\Gmedia\app\views\backend\metronic\view_login.php 18
+ERROR - 2018-02-20 04:25:02 --> Severity: Notice --> Undefined variable: base_url_index C:\xampp\htdocs\Gmedia\app\views\backend\metronic\view_login.php 41
+ERROR - 2018-02-20 04:25:02 --> Severity: Notice --> Undefined variable: globalParameter C:\xampp\htdocs\Gmedia\app\views\backend\metronic\view_login.php 134
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:03 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:04 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:05 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:06 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:06 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:06 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:06 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:07 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:07 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:07 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:07 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:07 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:08 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:08 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 04:25:08 --> 404 Page Not Found: Backend/assets
+ERROR - 2018-02-20 09:14:34 --> Severity: Error --> Call to undefined method CI_Session::usedata() C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 84
+ERROR - 2018-02-20 09:36:08 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 09:36:16 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 09:36:16 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 98
+ERROR - 2018-02-20 09:36:44 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 09:36:50 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 09:36:50 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 98
+ERROR - 2018-02-20 09:37:16 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 09:37:22 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 09:37:23 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 98
+ERROR - 2018-02-20 09:37:44 --> 404 Page Not Found: user-management/Privilege_menu/index
+ERROR - 2018-02-20 09:37:48 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 09:37:56 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 09:37:56 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 98
+ERROR - 2018-02-20 09:44:01 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 09:44:06 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 09:44:07 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 98
+ERROR - 2018-02-20 09:51:31 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 09:51:37 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 09:51:38 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 98
+ERROR - 2018-02-20 10:00:34 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:00:41 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:00:42 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 100
+ERROR - 2018-02-20 10:05:56 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:05:59 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:06:00 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 98
+ERROR - 2018-02-20 10:07:35 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:07:39 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:07:39 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 10:08:17 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:08:21 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:08:21 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 10:09:18 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:09:29 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:09:29 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 10:36:26 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:36:30 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:36:30 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 10:39:04 --> 404 Page Not Found: /index
+ERROR - 2018-02-20 10:39:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-02-20 10:39:49 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:39:52 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:39:52 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 10:40:42 --> 404 Page Not Found: user-management/Account/index
+ERROR - 2018-02-20 10:40:46 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:40:49 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:40:49 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 10:41:35 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:41:39 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:41:39 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 10:51:05 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 10:51:10 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 10:51:10 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 11:13:58 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 11:14:02 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 11:14:02 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 11:16:09 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 11:16:14 --> Query error: Unknown column 'em' in 'field list' - Invalid query: SELECT `em`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 11:16:14 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 99
+ERROR - 2018-02-20 11:24:22 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 11:24:27 --> Query error: Unknown column 'us.username' in 'field list' - Invalid query: SELECT `em`.`id`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 11:24:27 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 97
+ERROR - 2018-02-20 11:24:49 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 11:24:52 --> Query error: Unknown column 'us.username' in 'field list' - Invalid query: SELECT `em`.`id`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee`=`em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type`=`ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege`=`pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 11:24:53 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 97
+ERROR - 2018-02-20 11:28:48 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 11:28:51 --> Query error: Unknown column 'us.username' in 'field list' - Invalid query: SELECT `em`.`id`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee` = `em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege` = `pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 11:28:51 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 97
+ERROR - 2018-02-20 11:44:08 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 11:44:12 --> Query error: Unknown column 'us.username' in 'field list' - Invalid query: SELECT `em`.`id`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `u` ON `us`.`id_employee` = `em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege` = `pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 11:44:12 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 97
+ERROR - 2018-02-20 12:01:26 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 12:01:29 --> Query error: Unknown column 'us.id_user_privilege' in 'on clause' - Invalid query: SELECT `em`.`id`, `em`.`name`, `em`.`status`, `em`.`email`, `em`.`phone`, `em`.`entry_time`, `em`.`update_time`, `us`.`username` AS `username`, `ut`.`name` AS `name_user_type`, `pv`.`name` AS `name_privilege`
+FROM `cms_employee` `em`
+JOIN `cms_user` `us` ON `us`.`id_employee` = `em`.`id`
+JOIN `cms_user_type` `ut` ON `us`.`id_user_type` = `ut`.`id`
+JOIN `cms_privilege` `pv` ON `us`.`id_user_privilege` = `pv`.`id`
+WHERE `em`.`status` != '-1'
+ORDER BY `us`.`id_user_type` ASC
+ LIMIT 10
+ERROR - 2018-02-20 12:01:29 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_employees.php 97
+ERROR - 2018-02-20 12:04:17 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 12:04:23 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:04:23 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:04:23 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 63
+ERROR - 2018-02-20 12:05:51 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 12:07:14 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:07:14 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:07:14 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 63
+ERROR - 2018-02-20 12:07:49 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:07:49 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:07:49 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 63
+ERROR - 2018-02-20 12:08:43 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:08:43 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:08:43 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 63
+ERROR - 2018-02-20 12:09:02 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 12:09:06 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:09:06 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:09:06 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 63
+ERROR - 2018-02-20 12:12:16 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 12:12:19 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:12:19 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:12:19 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 63
+ERROR - 2018-02-20 12:21:23 --> 404 Page Not Found: /index
+ERROR - 2018-02-20 12:21:42 --> Severity: Notice --> Undefined index: name_employee C:\xampp\htdocs\Gmedia\app\views\backend\layout\_pageheader.php 66
+ERROR - 2018-02-20 12:21:47 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:21:47 --> Severity: Notice --> Undefined variable: datatable C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 62
+ERROR - 2018-02-20 12:21:47 --> Severity: Notice --> Undefined index: total C:\xampp\htdocs\Gmedia\app\controllers\user-management\Employees.php 63

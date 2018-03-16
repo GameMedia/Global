@@ -1,0 +1,91 @@
+ERROR - 2018-02-22 02:41:17 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-02-22 02:42:29 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802220242294016', '1', 'user-management/employees', 'Save', '{\\\"id\\\":\\\"\\\",\\\"id_user_type\\\":\\\"1\\\",\\\"id_privilege\\\":\\\"2\\\",\\\"name\\\":\\\"cek111\\\",\\\"email\\\":\\\"cek\\\",\\\"phone\\\":\\\"08081\\\",\\\"address\\\":\\\"akosd\\\",\\\"username\\\":\\\"testing\\\",\\\"password\\\":\\\"indofunjaya\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"id\\\":7,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '1', '2018-02-22 02:42:29')
+ERROR - 2018-02-22 02:42:58 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802220242582145', '1', 'user-management/employees', 'Update', '{\\\"id\\\":\\\"7\\\",\\\"id_user_type\\\":\\\"1\\\",\\\"id_privilege\\\":\\\"2\\\",\\\"name\\\":\\\"cek11112233\\\",\\\"email\\\":\\\"cek\\\",\\\"phone\\\":\\\"08081\\\",\\\"address\\\":\\\"akosddsdf\\\",\\\"username\\\":\\\"testingtyu\\\",\\\"password\\\":\\\"\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-22 02:42:58')
+ERROR - 2018-02-22 02:43:07 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802220243073377', '1', 'user-management/employees', 'Delete', '{\\\"id\\\":\\\"7\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '1', '2018-02-22 02:43:07')
+ERROR - 2018-02-22 05:12:10 --> Severity: Parsing Error --> syntax error, unexpected 'die' (T_EXIT) C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privileges.php 78
+ERROR - 2018-02-22 07:35:20 --> 404 Page Not Found: user-management/Account/index
+ERROR - 2018-02-22 07:35:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-22 07:35:25 --> Unable to connect to the database
+ERROR - 2018-02-22 07:35:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-22 07:35:26 --> Unable to connect to the database
+ERROR - 2018-02-22 07:35:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-22 07:35:26 --> Unable to connect to the database
+ERROR - 2018-02-22 07:35:26 --> Severity: Error --> Call to a member function query() on a non-object C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 221
+ERROR - 2018-02-22 07:35:41 --> 404 Page Not Found: user-management//index
+ERROR - 2018-02-22 07:35:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-22 07:35:50 --> Unable to connect to the database
+ERROR - 2018-02-22 07:35:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-22 07:35:50 --> Unable to connect to the database
+ERROR - 2018-02-22 07:35:51 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A socket operation was attempted to an unreachable host.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-22 07:35:51 --> Unable to connect to the database
+ERROR - 2018-02-22 07:35:51 --> Severity: Error --> Call to a member function query() on a non-object C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 221
+ERROR - 2018-02-22 07:38:43 --> 404 Page Not Found: user-management/Account/index
+ERROR - 2018-02-22 08:16:59 --> 404 Page Not Found: user-management/Privilege_menu/index
+ERROR - 2018-02-22 09:29:56 --> Query error: Table 'indofungames_media.cms_privilage_menu' doesn't exist - Invalid query: SELECT `me`.`id`, `me`.`name`, `me`.`parent`, `me`.`url`, `me`.`status`, `me`.`sort`, `me`.`icon`, (SELECT sort FROM cms_menu WHERE parent=me.parent AND me.sort > sort ORDER BY sort ASC LIMIT 1) AS sort_up, (SELECT sort FROM cms_menu WHERE parent=me.parent AND me.sort < sort ORDER BY sort ASC LIMIT 1) AS sort_down, (SELECT COUNT(1) FROM cms_menu WHERE parent = me.id AND status != "-1") AS child, `pm`.`id_privilege`, `pv`.`name` AS `name_privilege`, `pm`.`access`
+FROM `cms_menu` `me`
+JOIN `cms_privilage_menu` `pm` ON `me`.`id` = `pm`.`id_menu`
+JOIN `cms_privilege` `pv` ON `pv`.`id` = `pm`.`id_privilege`
+WHERE `me`.`status` != '-1'
+AND `pm`.`id_privilege` = '1'
+AND `me`.`parent` = '0'
+ORDER BY `me`.`sort` ASC
+ERROR - 2018-02-22 09:29:57 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 52
+ERROR - 2018-02-22 09:37:20 --> Query error: Table 'indofungames_media.cms_privilage_menu' doesn't exist - Invalid query: SELECT `me`.`id`, `me`.`name`, `me`.`parent`, `me`.`url`, `me`.`status`, `me`.`sort`, `me`.`icon`, (SELECT sort FROM cms_menu WHERE parent=me.parent AND me.sort > sort ORDER BY sort ASC LIMIT 1) AS sort_up, (SELECT sort FROM cms_menu WHERE parent=me.parent AND me.sort < sort ORDER BY sort ASC LIMIT 1) AS sort_down, (SELECT COUNT(1) FROM cms_menu WHERE parent = me.id AND status != "-1") AS child, `pm`.`id_privilege`, `pv`.`name` AS `name_privilege`, `pm`.`access`
+FROM `cms_menu` `me`
+JOIN `cms_privilage_menu` `pm` ON `me`.`id` = `pm`.`id_menu`
+JOIN `cms_privilege` `pv` ON `pv`.`id` = `pm`.`id_privilege`
+WHERE `me`.`status` != '-1'
+AND `pm`.`id_privilege` = '1'
+AND `me`.`parent` = '0'
+ORDER BY `me`.`sort` ASC
+ERROR - 2018-02-22 09:37:20 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 52
+ERROR - 2018-02-22 09:48:53 --> Query error: Table 'indofungames_media.cms_privilage_menu' doesn't exist - Invalid query: SELECT `m`.`id`, `m`.`name`, `m`.`parent`, `m`.`url`, `m`.`status`, `m`.`sort`, `m`.`icon`, (SELECT sort FROM cms_menu WHERE parent=m.parent AND m.sort > sort ORDER BY sort ASC LIMIT 1) AS sort_up, (SELECT sort FROM cms_menu WHERE parent=m.parent AND m.sort < sort ORDER BY sort ASC LIMIT 1) AS sort_down, (SELECT COUNT(1) FROM cms_menu WHERE parent = m.id AND status != "-1") AS child, `pm`.`id_privilege`, `p`.`name` AS `name_privilege`, `pm`.`access`
+FROM `cms_menu` `m`
+JOIN `cms_privilage_menu` `pm` ON `m`.`id` = `pm`.`id_menu`
+JOIN `cms_privilege` `p` ON `p`.`id` = `pm`.`id_privilege`
+WHERE `m`.`status` != '-1'
+AND `pm`.`id_privilege` = '1'
+AND `m`.`parent` = '0'
+ORDER BY `m`.`sort` ASC
+ERROR - 2018-02-22 09:48:53 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 53
+ERROR - 2018-02-22 09:51:15 --> Query error: Table 'indofungames_media.cms_privilage_menu' doesn't exist - Invalid query: SELECT `m`.`id`, `m`.`name`, `m`.`parent`, `m`.`url`, `m`.`status`, `m`.`sort`, `m`.`icon`, (SELECT sort FROM cms_menu WHERE parent=m.parent AND m.sort > sort ORDER BY sort ASC LIMIT 1) AS sort_up, (SELECT sort FROM cms_menu WHERE parent=m.parent AND m.sort < sort ORDER BY sort ASC LIMIT 1) AS sort_down, (SELECT COUNT(1) FROM cms_menu WHERE parent = m.id AND status != "-1") AS child, `pm`.`id_privilege`, `p`.`name` AS `name_privilege`, `pm`.`access`
+FROM `cms_menu` `m`
+JOIN `cms_privilage_menu` `pm` ON `m`.`id` = `pm`.`id_menu`
+JOIN `cms_privilege` `p` ON `p`.`id` = `pm`.`id_privilege`
+WHERE `m`.`status` != '-1'
+AND `pm`.`id_privilege` = '1'
+AND `m`.`parent` = '0'
+ORDER BY `m`.`sort` ASC
+ERROR - 2018-02-22 09:51:15 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 53
+ERROR - 2018-02-22 09:52:49 --> Query error: Table 'indofungames_media.cms_privilage_menu' doesn't exist - Invalid query: SELECT `m`.`id`, `m`.`name`, `m`.`parent`, `m`.`url`, `m`.`status`, `m`.`sort`, `m`.`icon`, (SELECT sort FROM cms_menu WHERE parent=m.parent AND m.sort > sort ORDER BY sort ASC LIMIT 1) AS sort_up, (SELECT sort FROM cms_menu WHERE parent=m.parent AND m.sort < sort ORDER BY sort ASC LIMIT 1) AS sort_down, (SELECT COUNT(1) FROM cms_menu WHERE parent = m.id AND status != "-1") AS child, `pm`.`id_privilege`, `p`.`name` AS `name_privilege`, `pm`.`access`
+FROM `cms_menu` `m`
+JOIN `cms_privilage_menu` `pm` ON `m`.`id` = `pm`.`id_menu`
+JOIN `cms_privilege` `p` ON `p`.`id` = `pm`.`id_privilege`
+WHERE `m`.`status` != '-1'
+AND `pm`.`id_privilege` = '1'
+AND `m`.`parent` = '0'
+ORDER BY `m`.`sort` ASC
+ERROR - 2018-02-22 09:52:49 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 53
+ERROR - 2018-02-22 10:18:51 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-02-22 10:40:26 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-22 10:44:41 --> Severity: Error --> Call to undefined method model_global::save() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privileges.php 108
+ERROR - 2018-02-22 10:48:08 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 136
+ERROR - 2018-02-22 10:56:33 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802221056339487', '1', 'user-management/privileges', 'Delete', '{\\\"id\\\":\\\"3\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '1', '2018-02-22 10:56:33')
+ERROR - 2018-02-22 10:57:36 --> Severity: Error --> Call to undefined method model_global::save() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privileges.php 108
+ERROR - 2018-02-22 10:59:18 --> Severity: Error --> Call to undefined method model_global::save() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privileges.php 108
+ERROR - 2018-02-22 11:01:49 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802221101493833', '1', 'user-management/privileges', 'Update', '{\\\"id\\\":\\\"3\\\",\\\"id_user_type\\\":\\\"2\\\",\\\"name\\\":\\\"Anggota INSAasdasd\\\",\\\"default_menu\\\":\\\"1\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-22 11:01:49')
+ERROR - 2018-02-22 11:02:01 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802221102016205', '1', 'user-management/privileges', 'Update', '{\\\"id\\\":\\\"3\\\",\\\"id_user_type\\\":\\\"2\\\",\\\"name\\\":\\\"Anggota INSA\\\",\\\"default_menu\\\":\\\"1\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-22 11:02:01')
+ERROR - 2018-02-22 11:02:24 --> Severity: Error --> Call to undefined method Model_privilege_menu::getMenuAll() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privileges.php 126
+ERROR - 2018-02-22 11:14:57 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802221114573914', '1', 'user-management/privileges', 'Delete', '{\\\"id\\\":\\\"4\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '1', '2018-02-22 11:14:57')
+ERROR - 2018-02-22 11:15:16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privileges.php 127
+ERROR - 2018-02-22 11:15:16 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802221115167153', '1', 'user-management/privileges', 'Save', '{\\\"id\\\":\\\"\\\",\\\"id_user_type\\\":\\\"2\\\",\\\"name\\\":\\\"hohoi\\\",\\\"default_menu\\\":\\\"13\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"id\\\":5,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '1', '2018-02-22 11:15:16')
+ERROR - 2018-02-22 11:17:19 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802221117198981', '1', 'user-management/privileges', 'Update', '{\\\"id\\\":\\\"5\\\",\\\"id_user_type\\\":\\\"2\\\",\\\"name\\\":\\\"hohoippppppp\\\",\\\"default_menu\\\":\\\"13\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-22 11:17:19')
+ERROR - 2018-02-22 11:18:39 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privileges.php 127
+ERROR - 2018-02-22 11:18:39 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802221118394465', '1', 'user-management/privileges', 'Save', '{\\\"id\\\":\\\"\\\",\\\"id_user_type\\\":\\\"1\\\",\\\"name\\\":\\\"lulul\\\",\\\"default_menu\\\":\\\"102\\\",\\\"status\\\":\\\"0\\\"}', '{\\\"id\\\":6,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '1', '2018-02-22 11:18:39')
+ERROR - 2018-02-22 11:29:07 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('2018022211290765', '1', 'user-management/privileges', 'Update', '{\\\"id\\\":\\\"5\\\",\\\"id_user_type\\\":\\\"1\\\",\\\"name\\\":\\\"kopkkkkkkkkkkkkkk\\\",\\\"default_menu\\\":\\\"12\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-22 11:29:07')

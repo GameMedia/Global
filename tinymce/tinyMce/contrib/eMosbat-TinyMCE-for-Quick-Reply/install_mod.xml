@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
+<!--NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.-->
+<!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.\nAlthough MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD.\nNo support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpbb.com/mods/xml/modx-1.2.6.xsd">
+	<header>
+		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
+		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
+		<title lang="en"><![CDATA[eMosbat TinyMCE for Quick Reply]]></title>
+		<description lang="en"><![CDATA[TinyMCE WYSIWYG editor for quick reply with support of smilies and custom BBCodes.]]></description>
+		<author-notes lang="en"><![CDATA[NOTE: you need to install eMosbat TinyMCE Integration MOD before using this MOD.]]></author-notes>
+		<author-group>
+			<author>
+				<username><![CDATA[emosbat]]></username>
+				<homepage><![CDATA[https://github.com/eMosbat]]></homepage>
+			</author>
+		</author-group>
+		<mod-version>1.5.9</mod-version>
+		<installation>
+			<level>easy</level>
+			<time>300</time>
+			<target-version>3.0.11</target-version>
+		</installation>
+	</header>
+	<action-group>
+		<open src="viewtopic.php">
+			<edit>
+				<find><![CDATA[if ($s_can_vote || $s_quick_reply)
+{]]></find>
+				<action type="after-add"><![CDATA[// eMosbat Quick Reply
+
+if(!class_exists('Mobile_Detect'))
+{
+	include($phpbb_root_path . 'includes/Mobile_Detect.' . $phpEx);
+}
+
+if(!function_exists('generate_smilies'))
+{
+	include($phpbb_root_path . 'includes/functions_posting.' . $phpEx);
+}
+
+$mobile_detect = new Mobile_Detect();
+$is_mobile = ($mobile_detect->isMobile() ? 1 : 0);
+$use_mobile = (isset($config['emotinymce_mobile']) ? ($config['emotinymce_mobile'] ? 1 : 0) : 0);
+
+$user->setup('posting');
+
+$bbcode_status	= ($config['allow_bbcode'] && $auth->acl_get('f_bbcode', $forum_id)) ? true : false;
+$smilies_status	= ($config['allow_smilies'] && $auth->acl_get('f_smilies', $forum_id)) ? true : false;
+$img_status		= ($bbcode_status && $auth->acl_get('f_img', $forum_id)) ? true : false;
+$url_status		= ($config['allow_post_links']) ? true : false;
+$flash_status	= ($bbcode_status && $auth->acl_get('f_flash', $forum_id) && $config['allow_post_flash']) ? true : false;
+
+if($smilies_status) 
+{
+	generate_smilies('inline', $forum_id);
+}
+if($bbcode_status) 
+{
+	display_custom_bbcodes();
+}
+// eMosbat Quick Reply
+
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA['S_QUICK_REPLY'			=> true,]]></find>
+				<action type="after-add"><![CDATA[// eMosbat TinyMCE
+	'EMOTINYMCE_ENABLE'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_enable'] && ($user->data['user_emotinyeditor']==1) || ($config['emotinymce_allowuser']==0)) ? ($is_mobile ? $use_mobile : 1) : 0) : 0),
+	'EMOTINYMCE_QUICKQUOTE'		=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_qq']) ? 1 : 0) : 0),
+	'EMOTINYMCE_RTL'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_rtl']) ? 1 : 0) : 0),
+	'EMOTINYMCE_WIDTH'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_qwidth']) : 0),
+	'EMOTINYMCE_HEIGHT'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_qheight']) : 0),
+	'EMOTINYMCE_SKIN'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_skin'] != "" ? current(explode("@",$config['emotinymce_skin'])) : "") : ""),
+	'EMOTINYMCE_SKIN_VAR'		=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_skin'] != "" ? end(explode("@",$config['emotinymce_skin'])) : "") : ""),
+	'EMOTINYMCE_SPELLCHECKER'	=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_spellchecker']) ? 1 : 0) : 0),
+	'EMOTINYMCE_CAPTION'		=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_caption']) ? 1 : 0) : 0),
+	'EMOTINYMCE_TIP'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_tip']) ? 1 : 0) : 0),
+	'EMOTINYMCE_LANG'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_lang']) : 0),
+// eMosbat TinyMCE
+// eMosbat Quick Reply
+	'S_BBCODE_ALLOWED'			=> $bbcode_status,
+	'S_SMILIES_ALLOWED'		=> $smilies_status,
+	'S_BBCODE_IMG'			=> $img_status,
+	'S_BBCODE_URL'			=> $url_status,
+	'S_BBCODE_FLASH'		=> $flash_status,
+	'S_BBCODE_QUOTE'		=> true,
+// eMosbat Quick Reply
+]]></action>
+			</edit>
+		</open>
+		<open src="styles/prosilver/template/quickreply_editor.html">
+			<edit>
+				<find><![CDATA[</noscript>]]></find>
+				<action type="after-add"><![CDATA[<!-- INCLUDE emotinymce_editor.html -->
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[<div id="message-box">
+					<textarea style="height: 9em;" name="message" rows="7" cols="76" tabindex="3" class="inputbox"></textarea>
+				</div>]]></find>
+				<action type="replace-with"><![CDATA[<div id="message-box" style="float: left; display: inline-block;">
+					<textarea style="height: 9em;" name="message" id="message" rows="7" cols="76" tabindex="3" class="inputbox"></textarea>
+				</div>
+	<div  style="float: right; display: inline-block; width: 180px; height: 210px; overflow: auto;">
+		<!-- IF EMOTINYMCE_ENABLE and S_SMILIES_ALLOWED and .smiley -->
+			<strong>{L_SMILIES}</strong><br />
+			<!-- BEGIN smiley -->
+				<a href="#" onclick="insert_text('{smiley.A_SMILEY_CODE}', true); return false;"><img src="{smiley.SMILEY_IMG}" width="{smiley.SMILEY_WIDTH}" height="{smiley.SMILEY_HEIGHT}" alt="{smiley.SMILEY_CODE}" title="{smiley.SMILEY_DESC}" /></a>
+			<!-- END smiley -->
+		<!-- ENDIF -->
+	</div>
+]]></action>
+			</edit>
+		</open>
+		<open src="styles/prosilver/template/viewtopic_body.html">
+			<edit>
+				<find><![CDATA[<!-- IF postrow.U_QUOTE --><li class="quote-icon"><a href="{postrow.U_QUOTE}" title="{L_REPLY_WITH_QUOTE}"><span>{L_REPLY_WITH_QUOTE}</span></a></li><!-- ENDIF -->]]></find>
+				<inline-edit>
+					<inline-find><![CDATA[href="{postrow.U_QUOTE}"]]></inline-find>
+					<inline-action type="after-add"><![CDATA[ <!-- IF EMOTINYMCE_QUICKQUOTE --> onclick="return reply_with_quote('{postrow.POST_ID}','{postrow.POST_AUTHOR}');" <!-- ENDIF --> ]]></inline-action>
+				</inline-edit>
+			</edit>
+			<edit>
+				<find><![CDATA[<div class="content">{postrow.MESSAGE}</div>]]></find>
+				<inline-edit>
+					<inline-find><![CDATA[class="content"]]></inline-find>
+					<inline-action type="after-add"><![CDATA[ <!-- IF EMOTINYMCE_QUICKQUOTE --> id="post_content_{postrow.POST_ID}" <!-- ENDIF --> ]]></inline-action>
+				</inline-edit>
+			</edit>
+		</open>
+	</action-group>
+</mod>

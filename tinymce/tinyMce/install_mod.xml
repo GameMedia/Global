@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
+<!--NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.-->
+<!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.\nAlthough MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD.\nNo support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpbb.com/mods/xml/modx-1.2.6.xsd">
+	<header>
+		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
+		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
+		<title lang="en"><![CDATA[eMosbat TinyMCE Integration]]></title>
+		<description lang="en"><![CDATA[TinyMCE WYSIWYG Editor Integration with support of smilies and custom BBCodes.]]></description>
+		<author-notes lang="en"><![CDATA[- To display icon for custom BBCode, upload 24x24 pixels gif image with same name of custom bbcode to images/bbcodes folder. for example for a custom bbcode with this name: youtube, upload youtube.gif to images/bbcodes folder.
+
+- You may download latest version of tinymce and upload 'tiny_mce' folder to styles/prosilver/template and styles/subsilver2/template folder. in this case do not forget to copy phpbbcode tinymce plugin to plugins folder.]]></author-notes>
+		<author-group>
+			<author>
+				<username><![CDATA[emosbat]]></username>
+				<homepage><![CDATA[https://github.com/eMosbat]]></homepage>
+			</author>
+		</author-group>
+		<mod-version>1.5.9</mod-version>
+		<installation>
+			<level>easy</level>
+			<time>480</time>
+			<target-version>3.0.11</target-version>
+		</installation>
+		<history>
+			<entry>
+				<date>2012-08-05</date>
+				<rev-version>1.0.1</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[convert_urls should be false]]></change>
+					<change><![CDATA[font color fixed]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-05</date>
+				<rev-version>1.0.2</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[code clean up]]></change>
+					<change><![CDATA[support of attachments]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-05</date>
+				<rev-version>1.0.3</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[bbcode help text fix]]></change>
+					<change><![CDATA[RTL added]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-06</date>
+				<rev-version>1.0.4</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[cursor position fix]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-08</date>
+				<rev-version>1.5.0</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[acp mod added]]></change>
+					<change><![CDATA[spellchecker support]]></change>
+					<change><![CDATA[interface customization]]></change>
+					<change><![CDATA[persian language support]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-09</date>
+				<rev-version>1.5.1</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[subsilver2 support added]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-10</date>
+				<rev-version>1.5.2</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[smiley problem fixed]]></change>
+					<change><![CDATA[html copy paste improvement]]></change>
+					<change><![CDATA[plugin name changed]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-10</date>
+				<rev-version>1.5.3</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[quick quote feature added]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-18</date>
+				<rev-version>1.5.4</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[signature support added]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-24</date>
+				<rev-version>1.5.5</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[mobile device detection added]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-08-26</date>
+				<rev-version>1.5.6</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[allow user editor selection]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-09-16</date>
+				<rev-version>1.5.7</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[extra smiley support added]]></change>
+				</changelog>
+			</entry>
+		</history>
+		<link-group>
+			<link type="contrib" href="contrib/eMosbat-TinyMCE-Subsilver2/install_mod.xml" lang="en">Subsilver2</link>
+			<link type="contrib" href="contrib/eMosbat-TinyMCE-for-Quick-Reply/install_mod.xml" lang="en">eMosbat TinyMCE for Quick Reply</link>
+			<link type="contrib" href="contrib/eMosbat-TinyMCE-for-Quick-Reply subsilver2/install_mod.xml" lang="en">eMosbat TinyMCE for Quick Reply - Subsilver2</link>
+			<link type="contrib" href="contrib/es (by Jorup16)/install_mod.xml" lang="en">Spanish Translation</link>
+			<link type="contrib" href="contrib/fr (by Mathieu M. and TheMoustic)/install_mod.xml" lang="en">French Translation</link>
+			<link type="contrib" href="contrib/ro (by deejay_xb)/install_mod.xml" lang="en">Romanian Translation</link>
+		</link-group>
+	</header>
+	<action-group>
+		<copy>
+			<file from="root/adm/style/*.*" to="adm/style/*.*"/>
+			<file from="root/images/bbcodes/*.*" to="images/bbcodes/*.*"/>
+			<file from="root/includes/acp/*.*" to="includes/acp/*.*"/>
+			<file from="root/language/en/mods/*.*" to="language/en/mods/*.*"/>
+			<file from="root/language/fa/mods/*.*" to="language/fa/mods/*.*"/>
+			<file from="root/styles/prosilver/template/tiny_mce/*.*" to="styles/prosilver/template/tiny_mce/*.*"/>
+			<file from="root/styles/prosilver/template/emo_tinymce.js" to="styles/prosilver/template/emo_tinymce.js"/>
+			<file from="root/styles/prosilver/template/emotinymce_editor.html" to="styles/prosilver/template/emotinymce_editor.html"/>
+			<file from="root/emotinymce_install.php" to="emotinymce_install.php"/>
+			<file from="root/includes/Mobile_Detect.php" to="includes/Mobile_Detect.php"/>
+		</copy>
+		<open src="posting.php">
+			<edit>
+				<find><![CDATA[$quote_status	= true;]]></find>
+				<action type="after-add"><![CDATA[// eMosbat TinyMCE
+
+if(!class_exists('Mobile_Detect'))
+{
+	include($phpbb_root_path . 'includes/Mobile_Detect.' . $phpEx);
+}
+
+$mobile_detect = new Mobile_Detect();
+$is_mobile = ($mobile_detect->isMobile() ? 1 : 0);
+$use_mobile = (isset($config['emotinymce_mobile']) ? ($config['emotinymce_mobile'] ? 1 : 0) : 0);
+// eMosbat TinyMCE
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA['S_BBCODE_ALLOWED'			=> ($bbcode_status) ? 1 : 0,]]></find>
+				<action type="after-add"><![CDATA[	// eMosbat TinyMCE
+	'EMOTINYMCE_ENABLE'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_enable'] && ($user->data['user_emotinyeditor']==1) || ($config['emotinymce_allowuser']==0)) ? ($is_mobile ? $use_mobile : 1) : 0) : 0),
+	'EMOTINYMCE_RTL'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_rtl']) ? 1 : 0) : 0),
+	'EMOTINYMCE_WIDTH'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_width']) : 0),
+	'EMOTINYMCE_HEIGHT'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_height']) : 0),
+	'EMOTINYMCE_SKIN'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_skin'] != "" ? current(explode("@",$config['emotinymce_skin'])) : "") : ""),
+	'EMOTINYMCE_SKIN_VAR'		=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_skin'] != "" ? end(explode("@",$config['emotinymce_skin'])) : "") : ""),
+	'EMOTINYMCE_SPELLCHECKER'	=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_spellchecker']) ? 1 : 0) : 0),
+	'EMOTINYMCE_CAPTION'		=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_caption']) ? 1 : 0) : 0),
+	'EMOTINYMCE_TIP'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_tip']) ? 1 : 0) : 0),
+	'EMOTINYMCE_LANG'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_lang']) : 0),
+	// eMosbat TinyMCE
+
+]]></action>
+			</edit>
+		</open>
+		<open src="includes/functions_posting.php">
+			<edit>
+				<find><![CDATA[		$template->set_filenames(array(
+			'body' => 'posting_smilies.html')
+		);]]></find>
+				<action type="after-add"><![CDATA[		// eMosbat TinyMCE
+		if(!class_exists('Mobile_Detect'))
+		{
+		include($phpbb_root_path . 'includes/Mobile_Detect.' . $phpEx);
+		}
+		
+		$mobile_detect = new Mobile_Detect();
+		$is_mobile = ($mobile_detect->isMobile() ? 1 : 0);
+		$use_mobile = (isset($config['emotinymce_mobile']) ? ($config['emotinymce_mobile'] ? 1 : 0) : 0);
+		
+		$template->assign_var('EMOTINYMCE_ENABLE', (isset($config['emotinymce_enable']) ? (($config['emotinymce_enable'] && ($user->data['user_emotinyeditor']==1) || ($config['emotinymce_allowuser']==0)) ? ($is_mobile ? $use_mobile : 1) : 0) : 0)
+		);
+		// eMosbat TinyMCE
+
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[		if ($row = $db->sql_fetchrow($result))
+		{
+			$display_link = true;
+		}
+		$db->sql_freeresult($result);
+]]></find>
+				<action type="after-add"><![CDATA[		// eMosbat TinyMCE
+		$sql = 'SELECT smiley_url, MIN(emotion) as emotion, MIN(code) AS code, smiley_width, smiley_height, MIN(smiley_order) AS min_smiley_order
+			FROM ' . SMILIES_TABLE . '
+			GROUP BY smiley_url, smiley_width, smiley_height
+			ORDER BY min_smiley_order';
+		$result = $db->sql_query($sql, 3600);
+
+	$smilies = array();
+	while ($row = $db->sql_fetchrow($result))
+	{
+		if (empty($smilies[$row['smiley_url']]))
+		{
+			$smilies[$row['smiley_url']] = $row;
+		}
+	}
+	$db->sql_freeresult($result);
+
+
+	if (sizeof($smilies))
+	{
+		$root_path = (defined('PHPBB_USE_BOARD_URL_PATH') && PHPBB_USE_BOARD_URL_PATH) ? generate_board_url() . '/' : $phpbb_root_path;
+
+		foreach ($smilies as $row)
+		{
+			$template->assign_block_vars('smileyall', array(
+				'SMILEY_CODE'	=> $row['code'],
+				'A_SMILEY_CODE'	=> addslashes($row['code']),
+				'SMILEY_IMG'	=> $root_path . (isset($config['smilies_path']) ? $config['smilies_path'] : '') . '/' . $row['smiley_url'],
+				'SMILEY_WIDTH'	=> $row['smiley_width'],
+				'SMILEY_HEIGHT'	=> $row['smiley_height'],
+				'SMILEY_DESC'	=> $row['emotion'])
+			);
+		}
+	}
+
+	unset($smilies);
+	unset($row);
+	
+		// eMosbat TinyMCE
+
+]]></action>
+			</edit>
+		</open>
+		<open src="includes/ucp/ucp_pm_compose.php">
+			<edit>
+				<find><![CDATA[$url_status		= ($config['allow_post_links']) ? true : false;]]></find>
+				<action type="after-add"><![CDATA[	
+	// eMosbat TinyMCE
+	if(!class_exists('Mobile_Detect'))
+	{
+		include($phpbb_root_path . 'includes/Mobile_Detect.' . $phpEx);
+	}
+	
+	$mobile_detect = new Mobile_Detect();
+	$is_mobile = ($mobile_detect->isMobile() ? 1 : 0);
+	$use_mobile = (isset($config['emotinymce_mobile']) ? ($config['emotinymce_mobile'] ? 1 : 0) : 0);
+	// eMosbat TinyMCE
+	
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA['S_BBCODE_ALLOWED'		=> ($bbcode_status) ? 1 : 0,]]></find>
+				<action type="after-add"><![CDATA[// eMosbat TinyMCE
+	'EMOTINYMCE_ENABLE'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_enable'] && ($user->data['user_emotinyeditor']==1) || ($config['emotinymce_allowuser']==0)) ? ($is_mobile ? $use_mobile : 1) : 0) : 0),
+	'EMOTINYMCE_RTL'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_rtl']) ? 1 : 0) : 0),
+	'EMOTINYMCE_WIDTH'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_qwidth']) : 0),
+	'EMOTINYMCE_HEIGHT'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_qheight']) : 0),
+	'EMOTINYMCE_SKIN'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_skin'] != "" ? current(explode("@",$config['emotinymce_skin'])) : "") : ""),
+	'EMOTINYMCE_SKIN_VAR'		=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_skin'] != "" ? end(explode("@",$config['emotinymce_skin'])) : "") : ""),
+	'EMOTINYMCE_SPELLCHECKER'	=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_spellchecker']) ? 1 : 0) : 0),
+	'EMOTINYMCE_CAPTION'		=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_caption']) ? 1 : 0) : 0),
+	'EMOTINYMCE_TIP'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_tip']) ? 1 : 0) : 0),
+	'EMOTINYMCE_LANG'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_lang'])) : ''),
+	'S_SMILIES_ALLOWED'		=> $smilies_status,
+	'S_BBCODE_IMG'			=> $img_status,
+	'S_BBCODE_URL'			=> $url_status,
+	'S_BBCODE_FLASH'		=> $flash_status,
+	'S_BBCODE_QUOTE'		=> true,
+// eMosbat TinyMCE
+]]></action>
+			</edit>
+		</open>
+		<open src="includes/ucp/ucp_prefs.php">
+			<edit>
+				<find><![CDATA['tz'			=> request_var('tz', (float) $user->data['user_timezone']),]]></find>
+				<action type="after-add"><![CDATA[					// emosbat TinyMCE
+					'emotinyeditor'	=> request_var('emotinyeditor', (int) $user->data['user_emotinyeditor']),
+					// emosbat TinyMCE
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA['user_style'			=> $data['style'],]]></find>
+				<action type="after-add"><![CDATA[							// emosbat TinyMCE
+							'user_emotinyeditor'	=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_allowuser'] ? $data['emotinyeditor'] : $config['emotinymce_enable'])) : 0),
+							// emosbat TinyMCE
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA['S_STYLE_OPTIONS'		=> ($config['override_user_style']) ? '' : style_select($data['style']),]]></find>
+				<action type="after-add"><![CDATA[					// emosbat TinyMCE
+					'S_EMOTINYEDITOR'		=> $data['emotinyeditor'],
+					'EMOTINYMCE_ALLOWUSER' => (isset($config['emotinymce_allowuser']) ? $config['emotinymce_allowuser'] : 0),
+					// emosbat TinyMCE
+]]></action>
+			</edit>
+		</open>
+		<open src="includes/ucp/ucp_profile.php">
+			<edit>
+				<find><![CDATA[$enable_urls	= ($config['allow_sig_links']) ? (bool) $user->optionget('sig_links') : false;]]></find>
+				<action type="after-add"><![CDATA[				
+				// eMosbat TinyMCE
+				if(!class_exists('Mobile_Detect'))
+				{
+					include($phpbb_root_path . 'includes/Mobile_Detect.' . $phpEx);
+				}
+				
+				$mobile_detect = new Mobile_Detect();
+				$is_mobile = ($mobile_detect->isMobile() ? 1 : 0);
+				$use_mobile = (isset($config['emotinymce_mobile']) ?  ($config['emotinymce_mobile'] ? 1 : 0) : 0);
+				// eMosbat TinyMCE
+				
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[					'SIGNATURE_PREVIEW'	=> $signature_preview,]]></find>
+				<action type="after-add"><![CDATA[// eMosbat TinyMCE
+	'EMOTINYMCE_ENABLE'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_enable'] && ($user->data['user_emotinyeditor']==1) || ($config['emotinymce_allowuser']==0)) ? ($is_mobile ? $use_mobile : 1) : 0) : 0),
+	'EMOTINYMCE_RTL'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_rtl']) ? 1 : 0) : 0),
+	'EMOTINYMCE_WIDTH'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_qwidth']) : 0),
+	'EMOTINYMCE_HEIGHT'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_qheight']) : 0),
+	'EMOTINYMCE_SKIN'			=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_skin'] != "" ? current(explode("@",$config['emotinymce_skin'])) : "") : ""),
+	'EMOTINYMCE_SKIN_VAR'		=> (isset($config['emotinymce_enable']) ? ($config['emotinymce_skin'] != "" ? end(explode("@",$config['emotinymce_skin'])) : "") : ""),
+	'EMOTINYMCE_SPELLCHECKER'	=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_spellchecker']) ? 1 : 0) : 0),
+	'EMOTINYMCE_CAPTION'		=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_caption']) ? 1 : 0) : 0),
+	'EMOTINYMCE_TIP'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_tip']) ? 1 : 0) : 0),
+	'EMOTINYMCE_LANG'			=> (isset($config['emotinymce_enable']) ? (($config['emotinymce_lang'])) : ''),
+	'S_SMILIES_ALLOWED'		=> $enable_smilies,
+	'S_BBCODE_IMG'			=> ($config['allow_sig_img'] ? 1 : 0),
+	'S_BBCODE_URL'			=> $enable_urls,
+	'S_BBCODE_FLASH'		=> ($config['allow_sig_flash'] ? 1 : 0),
+	'S_BBCODE_QUOTE'		=> true,
+// eMosbat TinyMCE
+]]></action>
+			</edit>
+		</open>
+		<open src="language/en/posting.php">
+			<edit>
+				<find><![CDATA[$lang = array_merge($lang, array(]]></find>
+				<action type="after-add"><![CDATA[	// emosbat TinyMCE
+	'EMOTINYMCE_CHANGED_TEXT'	=> 'Changes you made in the editor will be lost.',
+	// emosbat TinyMCE
+]]></action>
+			</edit>
+		</open>
+		<open src="language/en/ucp.php">
+			<edit>
+				<find><![CDATA[$lang = array_merge($lang, array(]]></find>
+				<action type="after-add"><![CDATA[	// emosbat TinyMCE
+	'USE_EMOTINYEDITOR'			=> 'Use Enhanced Editor',
+	// emosbat TinyMCE
+]]></action>
+			</edit>
+		</open>
+		<open src="styles/prosilver/template/posting_editor.html">
+			<edit>
+				<find><![CDATA[</script>
+]]></find>
+				<action type="after-add"><![CDATA[<!-- INCLUDE emotinymce_editor.html -->
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[<!-- INCLUDE posting_buttons.html -->]]></find>
+				<action type="replace-with"><![CDATA[<!-- IF not EMOTINYMCE_ENABLE -->
+<!-- INCLUDE posting_buttons.html -->
+<!-- ENDIF -->
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[<textarea <!-- IF S_UCP_ACTION and not S_PRIVMSGS and not S_EDIT_DRAFT -->name="signature" id="signature" style="height: 9em;"<!-- ELSE -->name="message" id="message"<!-- ENDIF --> rows="15" cols="76" tabindex="4" onselect="storeCaret(this);" onclick="storeCaret(this);" onkeyup="storeCaret(this);" onfocus="initInsertions();" class="inputbox">{MESSAGE}{DRAFT_MESSAGE}{SIGNATURE}</textarea>]]></find>
+				<inline-edit>
+					<inline-find><![CDATA[name="signature" id="signature"]]></inline-find>
+					<inline-action type="replace-with"><![CDATA[name="signature" id="message"]]></inline-action>
+				</inline-edit>
+			</edit>
+		</open>
+		<open src="styles/prosilver/template/posting_smilies.html">
+			<edit>
+				<find><![CDATA[<script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/editor.js"></script>]]></find>
+				<action type="after-add"><![CDATA[<!-- IF EMOTINYMCE_ENABLE -->
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/emo_tinymce.js"></script>
+<!-- ENDIF -->
+]]></action>
+			</edit>
+		</open>
+		<open src="styles/prosilver/template/ucp_prefs_personal.html">
+			<edit>
+				<find><![CDATA[</fieldset>]]></find>
+				<action type="before-add"><![CDATA[	<!-- IF EMOTINYMCE_ALLOWUSER -->
+	<dl>
+		<dt><label for="emotinyeditor0">{L_USE_EMOTINYEDITOR}:</label></dt>
+		<dd>
+			<label for="emotinyeditor1"><input type="radio" name="emotinyeditor" id="emotinyeditor1" value="1"<!-- IF S_EMOTINYEDITOR --> checked="checked"<!-- ENDIF --> /> {L_YES}</label> 
+			<label for="emotinyeditor0"><input type="radio" name="emotinyeditor" id="emotinyeditor0" value="0"<!-- IF not S_EMOTINYEDITOR --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+		</dd>
+	</dl>
+	<!-- ENDIF -->
+]]></action>
+			</edit>
+		</open>
+		<php-installer><![CDATA[emotinymce_install.php]]></php-installer>
+		<diy-instructions lang="en"><![CDATA[*** PLEASE remove emotinymce_install.php after installation.]]></diy-instructions>
+	</action-group>
+</mod>

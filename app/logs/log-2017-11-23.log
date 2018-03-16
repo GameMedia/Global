@@ -1,0 +1,243 @@
+ERROR - 2017-11-23 10:19:13 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 10:19:14 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 10:19:14 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 10:52:18 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 10:52:18 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 10:52:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 10:56:51 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 10:56:51 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 10:56:52 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:00:10 --> 404 Page Not Found: favicon.ico
+ERROR - 2017-11-23 11:21:51 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:21:51 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:21:52 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:25:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:25:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:25:31 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:25:32 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:26:40 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:26:40 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:26:40 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 11:26:40 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:27:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:27:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:48:22 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:48:23 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:48:53 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:48:53 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:48:53 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:49:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:49:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:49:33 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:49:53 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:49:53 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:49:54 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:50:41 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:50:41 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:50:42 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:55:15 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:55:15 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:55:16 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:57:29 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:57:29 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 13:57:30 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:20:18 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:20:18 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:20:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:20:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:22:15 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:22:15 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:22:16 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:22:42 --> Severity: error --> Exception: Call to undefined method login::captchaCheck() /var/www/me.indofun.forum/app/controllers/Login.php 45
+ERROR - 2017-11-23 15:22:42 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 15:28:17 --> Severity: error --> Exception: Call to undefined method login::captchaCheck() /var/www/me.indofun.forum/app/controllers/Login.php 45
+ERROR - 2017-11-23 15:28:17 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 15:28:57 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:28:57 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:28:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 15:29:10 --> Severity: error --> Exception: syntax error, unexpected '$result' (T_VARIABLE) /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 23
+ERROR - 2017-11-23 15:29:10 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:05:03 --> Severity: error --> Exception: syntax error, unexpected ',' /var/www/me.indofun.forum/app/controllers/Login.php 67
+ERROR - 2017-11-23 16:05:03 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:05:36 --> Severity: error --> Exception: syntax error, unexpected ',' /var/www/me.indofun.forum/app/controllers/Login.php 67
+ERROR - 2017-11-23 16:05:36 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:05:37 --> Severity: error --> Exception: syntax error, unexpected ',' /var/www/me.indofun.forum/app/controllers/Login.php 67
+ERROR - 2017-11-23 16:05:37 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:05:39 --> Severity: error --> Exception: syntax error, unexpected ',' /var/www/me.indofun.forum/app/controllers/Login.php 67
+ERROR - 2017-11-23 16:05:39 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:05:54 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:05:54 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:05:55 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:06:11 --> Severity: error --> Exception: Call to undefined method model_auth::loadDbSdk() /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 9
+ERROR - 2017-11-23 16:06:11 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:08:44 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:08:44 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:08:45 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:09:05 --> Severity: error --> Exception: Call to undefined method model_auth::loadDbSdk() /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 9
+ERROR - 2017-11-23 16:09:05 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:10:41 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:10:41 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:10:41 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:11:25 --> Severity: error --> Exception: Call to undefined method model_auth::loadDbSdk() /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 9
+ERROR - 2017-11-23 16:11:25 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:14:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:14:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:14:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:14:46 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:14:47 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:14:47 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:15:00 --> Severity: error --> Exception: Call to undefined method model_auth::loadDbSdk() /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 9
+ERROR - 2017-11-23 16:15:01 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:17:23 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:17:27 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:17:27 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:17:28 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:21:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:21:09 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:21:10 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:22:01 --> Severity: error --> Exception: Call to undefined method model_auth::loadDbSdk() /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 9
+ERROR - 2017-11-23 16:22:01 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:23:38 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:23:38 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:23:39 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:23:55 --> Severity: error --> Exception: Call to undefined method model_auth::dbPlatformSdk() /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 9
+ERROR - 2017-11-23 16:23:55 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:24:48 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:24:49 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:24:49 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:25:02 --> Severity: error --> Exception: Call to undefined method model_auth::dbPlatformSdk() /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 9
+ERROR - 2017-11-23 16:25:02 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:28:19 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:28:20 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:28:20 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:28:34 --> Severity: error --> Exception: Call to undefined method model_auth::dbPlatformSdk() /var/www/me.indofun.forum/app/models/frontend/Model_auth.php 9
+ERROR - 2017-11-23 16:28:34 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /var/www/me.indofun.forum/sys/core/Common.php on line 658 and defined in /var/www/me.indofun.forum/sys/core/Exceptions.php:190
+Stack trace:
+#0 /var/www/me.indofun.forum/sys/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown /var/www/me.indofun.forum/sys/core/Exceptions.php 190
+ERROR - 2017-11-23 16:31:48 --> Severity: Notice --> Undefined index: userpass /var/www/me.indofun.forum/app/controllers/Login.php 65
+ERROR - 2017-11-23 16:31:48 --> Severity: Notice --> Undefined index: id /var/www/me.indofun.forum/app/controllers/Login.php 90
+ERROR - 2017-11-23 16:31:48 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711231631484093', '', 'login/auth', 'Login', '', '{\\\"success\\\":false,\\\"message\\\":\\\"Invalid Username or Password\\\"}', '192.168.0.238', '', '2017-11-23 16:31:48')
+ERROR - 2017-11-23 16:34:44 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:45 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:46 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:57 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711231634575916', '201711021456365904', 'login/auth', 'Login', '', '{\\\"success\\\":true,\\\"url\\\":\\\"home\\\"}', '192.168.0.238', '201711021456365904', '2017-11-23 16:34:57')
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:58 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 16:34:59 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:01 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:02 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:06 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:07 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:15:07 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:44:04 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:44:05 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:44:06 --> 404 Page Not Found: assets
+ERROR - 2017-11-23 17:44:47 --> Severity: Notice --> Undefined index: password /var/www/me.indofun.forum/app/controllers/Login.php 63
+ERROR - 2017-11-23 17:44:47 --> Severity: Notice --> Undefined index: id /var/www/me.indofun.forum/app/controllers/Login.php 88
+ERROR - 2017-11-23 17:44:47 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201711231744478239', '', 'login/auth', 'Login', '', '{\\\"success\\\":false,\\\"message\\\":\\\"Invalid Username or Password\\\"}', '192.168.0.238', '', '2017-11-23 17:44:47')

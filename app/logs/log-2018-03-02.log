@@ -1,0 +1,74 @@
+ERROR - 2018-03-02 02:57:09 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-03-02 02:57:39 --> Severity: Error --> Call to undefined method Model_account::loadDbPlatform() C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_account.php 13
+ERROR - 2018-03-02 02:58:36 --> 404 Page Not Found: master-management/Galleries/uploadGalleries
+ERROR - 2018-03-02 02:58:50 --> 404 Page Not Found: master-management/Galleries/checkUI
+ERROR - 2018-03-02 04:28:02 --> Severity: Parsing Error --> syntax error, unexpected '=', expecting ')' C:\xampp\htdocs\Gmedia\app\controllers\master-management\Galleries.php 148
+ERROR - 2018-03-02 04:29:12 --> 404 Page Not Found: Lolol/index
+ERROR - 2018-03-02 04:29:28 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803020429284557', '3', 'master-management/galleries', 'Delete', '{\\\"id\\\":\\\"3\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '3', '2018-03-02 04:29:28')
+ERROR - 2018-03-02 04:35:38 --> 404 Page Not Found: master-management/Countries/index
+ERROR - 2018-03-02 04:36:02 --> 404 Page Not Found: master-management/Countries/index
+ERROR - 2018-03-02 05:36:16 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-02 05:36:19 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-02 05:36:20 --> 404 Page Not Found: Managing_parameters/countries
+ERROR - 2018-03-02 05:39:15 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-02 05:39:17 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-02 05:39:19 --> 404 Page Not Found: Managing_parameters/countries
+ERROR - 2018-03-02 05:40:28 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-02 05:40:30 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-02 05:40:32 --> 404 Page Not Found: Managing_parameters/countries
+ERROR - 2018-03-02 05:41:34 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-02 05:41:37 --> 404 Page Not Found: Assets/js
+ERROR - 2018-03-02 05:41:38 --> 404 Page Not Found: Master_management/countries
+ERROR - 2018-03-02 05:45:11 --> 404 Page Not Found: Master_management/countries
+ERROR - 2018-03-02 07:36:38 --> 404 Page Not Found: Master_management/countries
+ERROR - 2018-03-02 07:41:30 --> 404 Page Not Found: Master_management/countries
+ERROR - 2018-03-02 07:41:39 --> 404 Page Not Found: Master_management/countries
+ERROR - 2018-03-02 07:41:50 --> 404 Page Not Found: Master_management/countries
+ERROR - 2018-03-02 07:42:23 --> 404 Page Not Found: Master_management/countries
+ERROR - 2018-03-02 07:42:32 --> Query error: FUNCTION indofungames_media.COUTN does not exist - Invalid query: SELECT COUTN(1) AS count
+FROM `countries`
+WHERE `status` != '-1'
+ERROR - 2018-03-02 07:42:32 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_countries.php 38
+ERROR - 2018-03-02 07:42:47 --> Query error: FUNCTION indofungames_media.COUTN does not exist - Invalid query: SELECT COUTN(1) AS count
+FROM `countries`
+WHERE `status` != '-1'
+ERROR - 2018-03-02 07:42:47 --> Severity: Error --> Call to a member function result_array() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_countries.php 38
+ERROR - 2018-03-02 08:02:16 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\controllers\master-management\Countries.php 36
+ERROR - 2018-03-02 08:04:23 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\controllers\master-management\Countries.php 36
+ERROR - 2018-03-02 08:05:07 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\controllers\master-management\Countries.php 36
+ERROR - 2018-03-02 08:21:37 --> Severity: Notice --> Undefined offset: -4 C:\xampp\htdocs\Gmedia\app\controllers\master-management\Countries.php 41
+ERROR - 2018-03-02 08:22:10 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 87
+ERROR - 2018-03-02 08:22:46 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 87
+ERROR - 2018-03-02 08:29:06 --> Severity: Notice --> Undefined offset: -4 C:\xampp\htdocs\Gmedia\app\controllers\master-management\Countries.php 41
+ERROR - 2018-03-02 08:30:03 --> Severity: Notice --> Undefined offset: -4 C:\xampp\htdocs\Gmedia\app\controllers\master-management\Countries.php 41
+ERROR - 2018-03-02 09:51:24 --> Severity: Parsing Error --> syntax error, unexpected '}', expecting ',' or ';' C:\xampp\htdocs\Gmedia\app\controllers\master-management\Countries.php 178
+ERROR - 2018-03-02 09:52:54 --> 404 Page Not Found: Managing_parameters/countries
+ERROR - 2018-03-02 09:54:02 --> 404 Page Not Found: Managing_parameters/Countries
+ERROR - 2018-03-02 09:55:34 --> Query error: Unknown column 'c.id' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`desctripiton`, `c`.`utc_timezone`, `c`.`prefix`, `c`.`status`, `c`.`entry_by`, `c`.`entry_time`, `c`.`update_by`, `p`.`update_time`
+FROM `countries` `p`
+WHERE `p`.`id` = '2'
+ERROR - 2018-03-02 09:55:34 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_countries.php 96
+ERROR - 2018-03-02 09:57:57 --> Query error: Unknown column 'c.desctripiton' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`desctripiton`, `c`.`utc_timezone`, `c`.`prefix`, `c`.`status`, `c`.`entry_by`, `c`.`entry_time`, `c`.`update_by`, `c`.`update_time`
+FROM `countries` `c`
+WHERE `p`.`id` = '2'
+ERROR - 2018-03-02 09:57:57 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_countries.php 96
+ERROR - 2018-03-02 09:58:39 --> Query error: Unknown column 'c.desctripiton' in 'field list' - Invalid query: SELECT `c`.`id`, `c`.`code`, `c`.`name`, `c`.`desctripiton`, `c`.`utc_timezone`, `c`.`prefix`, `c`.`status`, `c`.`entry_by`, `c`.`entry_time`, `c`.`update_by`, `c`.`update_time`
+FROM `countries` `c`
+WHERE `c`.`id` = '2'
+ERROR - 2018-03-02 09:58:40 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_countries.php 96
+ERROR - 2018-03-02 10:00:20 --> Severity: Notice --> Undefined index: desctripiton C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_countries.php 104
+ERROR - 2018-03-02 10:02:17 --> Severity: Notice --> Undefined index: actions C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 48
+ERROR - 2018-03-02 10:02:17 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021002172104', '3', 'master-management/countries', '', '{\\\"id\\\":\\\"2\\\",\\\"code\\\":\\\"KR\\\",\\\"name\\\":\\\"yihaa\\\",\\\"description\\\":\\\"\\\",\\\"utc_timezone\\\":\\\"2\\\",\\\"prefix\\\":\\\"27\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '3', '2018-03-02 10:02:17')
+ERROR - 2018-03-02 10:03:28 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021003287447', '3', 'master-management/countries', 'Update', '{\\\"id\\\":\\\"2\\\",\\\"code\\\":\\\"KR\\\",\\\"name\\\":\\\"yihaa\\\",\\\"description\\\":\\\"\\\",\\\"utc_timezone\\\":\\\"0\\\",\\\"prefix\\\":\\\"27\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '3', '2018-03-02 10:03:28')
+ERROR - 2018-03-02 10:03:42 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021003425925', '3', 'master-management/countries', 'Update', '{\\\"id\\\":\\\"2\\\",\\\"code\\\":\\\"KR\\\",\\\"name\\\":\\\"yihaa\\\",\\\"description\\\":\\\"\\\",\\\"utc_timezone\\\":\\\"-3\\\",\\\"prefix\\\":\\\"27\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '3', '2018-03-02 10:03:42')
+ERROR - 2018-03-02 10:06:05 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\models\backend\master-management\Model_countries.php 60
+ERROR - 2018-03-02 10:09:21 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021009219763', '3', 'master-management/countries', 'Update', '{\\\"id\\\":\\\"2\\\",\\\"code\\\":\\\"KRM\\\",\\\"name\\\":\\\"yihaa\\\",\\\"description\\\":\\\"\\\",\\\"utc_timezone\\\":\\\"-3\\\",\\\"prefix\\\":\\\"27\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '3', '2018-03-02 10:09:21')
+ERROR - 2018-03-02 10:12:32 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021012323148', '3', 'master-management/countries', 'Update', '{\\\"id\\\":\\\"2\\\",\\\"code\\\":\\\"KRw\\\",\\\"name\\\":\\\"yihaa\\\",\\\"description\\\":\\\"\\\",\\\"utc_timezone\\\":\\\"-3\\\",\\\"prefix\\\":\\\"27\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '3', '2018-03-02 10:12:32')
+ERROR - 2018-03-02 10:28:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-03-02 10:28:29 --> Unable to connect to the database
+ERROR - 2018-03-02 10:45:41 --> Severity: Notice --> Undefined index: actions C:\xampp\htdocs\Gmedia\app\core\MY_Controller.php 48
+ERROR - 2018-03-02 10:45:41 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021045411972', '3', 'master-management/countries', '', '{\\\"id\\\":\\\"2\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '3', '2018-03-02 10:45:41')
+ERROR - 2018-03-02 10:46:43 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021046438783', '3', 'master-management/countries', 'Delete', '{\\\"id\\\":\\\"2\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '3', '2018-03-02 10:46:43')
+ERROR - 2018-03-02 11:03:17 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021103173981', '3', 'master-management/countries', 'Update', '{\\\"id\\\":\\\"3\\\",\\\"code\\\":\\\"5z\\\",\\\"name\\\":\\\"yyuasd\\\",\\\"description\\\":\\\"\\\",\\\"utc_timezone\\\":\\\"5\\\",\\\"prefix\\\":\\\"0\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '3', '2018-03-02 11:03:17')
+ERROR - 2018-03-02 11:04:35 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201803021104356919', '3', 'master-management/countries', 'Save', '{\\\"id\\\":\\\"\\\",\\\"code\\\":\\\"as\\\",\\\"name\\\":\\\"asdl;amd\\\",\\\"description\\\":\\\"apd\\\",\\\"utc_timezone\\\":\\\"4\\\",\\\"prefix\\\":\\\"2p1\\\",\\\"status\\\":\\\"0\\\"}', '{\\\"id\\\":4,\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '3', '2018-03-02 11:04:35')

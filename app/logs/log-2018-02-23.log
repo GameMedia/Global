@@ -1,0 +1,435 @@
+ERROR - 2018-02-23 04:18:22 --> 404 Page Not Found: Faviconico/index
+ERROR - 2018-02-23 04:36:15 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-23 04:42:18 --> Severity: Error --> Call to undefined method Model_account::loadDbPlatform() C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_account.php 13
+ERROR - 2018-02-23 04:42:39 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 131
+ERROR - 2018-02-23 04:43:16 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802230443167468', '1', 'user-management/privileges', 'Update', '{\\\"id\\\":\\\"5\\\",\\\"id_user_type\\\":\\\"1\\\",\\\"name\\\":\\\"ruina\\\",\\\"default_menu\\\":\\\"23\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-23 04:43:16')
+ERROR - 2018-02-23 04:43:30 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802230443305533', '1', 'user-management/privileges', 'Delete', '{\\\"id\\\":\\\"5\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Deleting Data\\\",\\\"message\\\":\\\"Data has been deleted.\\\"}', '::1', '1', '2018-02-23 04:43:30')
+ERROR - 2018-02-23 04:43:53 --> Severity: Error --> Call to undefined method Model_account::loadDbPlatform() C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_account.php 13
+ERROR - 2018-02-23 04:44:28 --> Severity: Error --> Call to undefined method Model_account::loadDbPlatform() C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_account.php 13
+ERROR - 2018-02-23 04:47:57 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:57 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:57 --> 404 Page Not Found: user-management/Assets/images
+ERROR - 2018-02-23 04:47:57 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:58 --> 404 Page Not Found: user-management/Assets/images
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:47:59 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:00 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:01 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:01 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:01 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:01 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:02 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:02 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:02 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:02 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:02 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:03 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:03 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:03 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:03 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:03 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:04 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:04 --> 404 Page Not Found: user-management/Assets/plugins
+ERROR - 2018-02-23 04:48:04 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:04 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:05 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:05 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:48:05 --> 404 Page Not Found: user-management/Assets/js
+ERROR - 2018-02-23 04:52:02 --> 404 Page Not Found: /index
+ERROR - 2018-02-23 04:58:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-23 04:58:07 --> Unable to connect to the database
+ERROR - 2018-02-23 04:58:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 135
+ERROR - 2018-02-23 04:58:17 --> Unable to connect to the database
+ERROR - 2018-02-23 05:05:13 --> Severity: Error --> Call to undefined method Model_account::loadDbPlatform() C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_account.php 13
+ERROR - 2018-02-23 05:05:49 --> Severity: Error --> Call to undefined method Model_privilege_menu::deletePrivilege_Menu() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privilege_menu.php 129
+ERROR - 2018-02-23 05:06:00 --> Severity: Error --> Call to undefined method Model_privilege_menu::deletePrivilege_Menu() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privilege_menu.php 129
+ERROR - 2018-02-23 05:06:56 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-23 05:18:20 --> Severity: Error --> Call to undefined method Model_privilege_menu::getPrivilege_MenuData() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privilege_menu.php 150
+ERROR - 2018-02-23 05:18:55 --> Severity: Error --> Call to undefined method Model_privilege_menu::getPrivilege_MenuData() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privilege_menu.php 150
+ERROR - 2018-02-23 05:28:58 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:28:58 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:28:58 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:28:59 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:00 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:00 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:00 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:00 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:00 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:00 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:00 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:00 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:07 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:29:07 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:29:07 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:29:07 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:29:07 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:29:07 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:29:07 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 132
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 133
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:08 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:32 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:33 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:40 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:40 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:41 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 05:29:42 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 05:29:42 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 05:29:42 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:42 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:42 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 05:29:42 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 05:29:42 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 05:29:42 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 07:39:02 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 131
+ERROR - 2018-02-23 07:39:12 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 131
+ERROR - 2018-02-23 07:39:34 --> Severity: Warning --> Illegal string offset 'child' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 69
+ERROR - 2018-02-23 07:39:34 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:39:34 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:39:34 --> Severity: Warning --> Illegal string offset 'child' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 69
+ERROR - 2018-02-23 07:39:35 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:39:35 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 155
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined index:  C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 157
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 158
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 160
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 161
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 162
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 165
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 166
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 167
+ERROR - 2018-02-23 07:39:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 168
+ERROR - 2018-02-23 07:39:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 169
+ERROR - 2018-02-23 07:39:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 172
+ERROR - 2018-02-23 07:40:14 --> Severity: Warning --> Illegal string offset 'child' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 69
+ERROR - 2018-02-23 07:40:14 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:40:14 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:40:14 --> Severity: Warning --> Illegal string offset 'child' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 69
+ERROR - 2018-02-23 07:40:15 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:40:15 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 155
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined index:  C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 157
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 158
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 160
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 161
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 162
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 165
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 166
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 167
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 168
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 169
+ERROR - 2018-02-23 07:40:15 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 172
+ERROR - 2018-02-23 07:40:29 --> Severity: Warning --> Illegal string offset 'child' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 69
+ERROR - 2018-02-23 07:40:29 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:40:29 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:40:29 --> Severity: Warning --> Illegal string offset 'child' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 69
+ERROR - 2018-02-23 07:40:29 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:40:29 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 07:40:29 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 155
+ERROR - 2018-02-23 07:40:29 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined index:  C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 157
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 158
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 160
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 161
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 162
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 165
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 166
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 167
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 168
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 169
+ERROR - 2018-02-23 07:40:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 172
+ERROR - 2018-02-23 07:42:59 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-23 07:43:35 --> Severity: Error --> Call to undefined method Model_privilege_menu::deletePrivilege_Menu() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privilege_menu.php 129
+ERROR - 2018-02-23 08:52:31 --> Severity: Error --> Call to undefined method Model_account::loadDbPlatform() C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_account.php 13
+ERROR - 2018-02-23 09:00:54 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 131
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:05 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:06 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:13 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 09:04:13 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 09:04:13 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 09:04:13 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 09:04:13 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 09:04:13 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 138
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 142
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 143
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 159
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_up C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 163
+ERROR - 2018-02-23 09:04:14 --> Severity: Notice --> Undefined index: sort_down C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 164
+ERROR - 2018-02-23 09:14:52 --> Severity: Warning --> Illegal string offset 'child' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 69
+ERROR - 2018-02-23 09:14:52 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 09:14:52 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 09:14:53 --> Severity: Warning --> Illegal string offset 'child' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 69
+ERROR - 2018-02-23 09:14:53 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 09:14:53 --> Severity: Warning --> Illegal string offset 'id' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 70
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 155
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined index:  C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 157
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 158
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 160
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 161
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 162
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 165
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 166
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 167
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 168
+ERROR - 2018-02-23 09:14:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 169
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 172
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 155
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined index:  C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 157
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 158
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 160
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 161
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 162
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 165
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 166
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 167
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 168
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 169
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 172
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 155
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined index:  C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 157
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 158
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 160
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 161
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 162
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 165
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 166
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 167
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 168
+ERROR - 2018-02-23 09:14:54 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 169
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 172
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 155
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined index:  C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 156
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 157
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 158
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 160
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 161
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 162
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 165
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 166
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 167
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 168
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 169
+ERROR - 2018-02-23 09:14:55 --> Severity: Notice --> Undefined offset: 3 C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 172
+ERROR - 2018-02-23 09:17:57 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 131
+ERROR - 2018-02-23 09:18:19 --> Severity: Notice --> Undefined index: rows C:\xampp\htdocs\Gmedia\app\core\MY_Controller_Admin.php 131
+ERROR - 2018-02-23 09:33:27 --> Severity: Error --> Call to undefined method Model_privilege_menu::savePrivilege_Menu() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privilege_menu.php 78
+ERROR - 2018-02-23 09:42:45 --> Severity: Error --> Call to undefined method Model_privilege_menu::insertPrivilege_Menu() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privilege_menu.php 94
+ERROR - 2018-02-23 10:04:37 --> Severity: Parsing Error --> syntax error, unexpected ')' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 200
+ERROR - 2018-02-23 10:06:17 --> Severity: Parsing Error --> syntax error, unexpected ''entry_time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 225
+ERROR - 2018-02-23 10:08:02 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'parent='2') AS sort, level
+							FROM cms_menu
+							WHERE parent='2' ORDER BY' at line 1 - Invalid query: SELECT(SELECT COUNT(1) FROMcms_menuWHERE parent='2') AS sort, level
+							FROM cms_menu
+							WHERE parent='2' ORDER BY sort DESC LIMIT 1
+ERROR - 2018-02-23 10:08:02 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 204
+ERROR - 2018-02-23 10:17:33 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'parent='2') AS sort, level
+							FROM cms_menu
+							WHERE parent='2' ORDER BY' at line 1 - Invalid query: SELECT(SELECT COUNT(1) FROMcms_menuWHERE parent='2') AS sort, level
+							FROM cms_menu
+							WHERE parent='2' ORDER BY sort DESC LIMIT 1
+ERROR - 2018-02-23 10:17:34 --> Severity: Error --> Call to a member function num_rows() on a non-object C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 204
+ERROR - 2018-02-23 10:23:27 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802231023267281', '1', 'user-management/privilege_menu', 'Save', '{\\\"id\\\":\\\"\\\",\\\"name\\\":\\\"koooooooop\\\",\\\"description\\\":\\\"\\\",\\\"url\\\":\\\"koooooooopqq\\\",\\\"icon\\\":\\\"icon-bell\\\",\\\"parent\\\":\\\"2\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '1', '2018-02-23 10:23:26')
+ERROR - 2018-02-23 10:24:50 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-23 10:34:21 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\xampp\htdocs\Gmedia\sys_ci_3.0\database\drivers\mysqli\mysqli_driver.php 221
+ERROR - 2018-02-23 10:34:40 --> 404 Page Not Found: Koooooooopqq/index
+ERROR - 2018-02-23 10:36:18 --> Severity: Error --> Call to undefined method Model_privilege_menu::deletePrivilege_Menu() C:\xampp\htdocs\Gmedia\app\controllers\user-management\Privilege_menu.php 129
+ERROR - 2018-02-23 10:37:13 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-23 10:47:50 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802231047500417', '1', 'user-management/privilege_menu', 'Delete', '{\\\"id\\\":\\\"191\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-23 10:47:50')
+ERROR - 2018-02-23 11:13:37 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802231113375508', '1', 'user-management/privilege_menu', 'Save', '{\\\"id\\\":\\\"\\\",\\\"name\\\":\\\"cekcek\\\",\\\"description\\\":\\\"uiui\\\",\\\"url\\\":\\\"user-management\\\\/cekcek\\\",\\\"icon\\\":\\\"\\\",\\\"parent\\\":\\\"2\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '1', '2018-02-23 11:13:37')
+ERROR - 2018-02-23 11:13:51 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-23 11:14:35 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802231114355805', '1', 'user-management/privilege_menu', 'Delete', '{\\\"id\\\":\\\"192\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-23 11:14:35')
+ERROR - 2018-02-23 11:20:51 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802231120510011', '1', 'user-management/privilege_menu', 'Delete', '{\\\"id\\\":\\\"192\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-23 11:20:51')
+ERROR - 2018-02-23 11:21:17 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802231121177804', '1', 'user-management/privilege_menu', 'Save', '{\\\"id\\\":\\\"\\\",\\\"name\\\":\\\"Discuss\\\",\\\"description\\\":\\\"forum\\\",\\\"url\\\":\\\"discuss\\\",\\\"icon\\\":\\\"icon-arrow-up\\\",\\\"parent\\\":\\\"0\\\",\\\"status\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Saving Data\\\",\\\"message\\\":\\\"Data has been saved.\\\"}', '::1', '1', '2018-02-23 11:21:17')
+ERROR - 2018-02-23 11:21:32 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-23 11:38:58 --> 404 Page Not Found: user-management/Privilege_menu/setAccess
+ERROR - 2018-02-23 11:57:31 --> Severity: Notice --> Undefined index: id_menu C:\xampp\htdocs\Gmedia\app\models\backend\user-management\Model_privilege_menu.php 291
+ERROR - 2018-02-23 11:57:31 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802231157316464', '1', 'user-management/privilege_menu', 'Save', '', '{\\\"success\\\":false,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Record is empty.\\\"}', '::1', '1', '2018-02-23 11:57:31')
+ERROR - 2018-02-23 12:01:06 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('20180223120106772', '1', 'user-management/privilege_menu', 'Save', '{\\\"menu\\\":\\\"1\\\",\\\"privilege\\\":\\\"1\\\",\\\"access\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-23 12:01:06')
+ERROR - 2018-02-23 12:01:17 --> Query error: Unknown column 'ip' in 'field list' - Invalid query: INSERT INTO `cms_action_history` (`id`, `id_user`, `url`, `actions`, `data`, `result`, `ip`, `entry_by`, `entry_time`) VALUES ('201802231201178005', '1', 'user-management/privilege_menu', 'Save', '{\\\"menu\\\":\\\"1\\\",\\\"privilege\\\":\\\"1\\\",\\\"access\\\":\\\"1\\\"}', '{\\\"success\\\":true,\\\"title\\\":\\\"Updating Data\\\",\\\"message\\\":\\\"Data has been updated.\\\"}', '::1', '1', '2018-02-23 12:01:17')

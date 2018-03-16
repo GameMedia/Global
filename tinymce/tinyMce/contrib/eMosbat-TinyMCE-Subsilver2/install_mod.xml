@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
+<!--NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.-->
+<!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.\nAlthough MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD.\nNo support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpbb.com/mods/xml/modx-1.2.6.xsd">
+	<header>
+		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
+		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
+		<title lang="en"><![CDATA[eMosbat TinyMCE Integration - Subsilver2]]></title>
+		<description lang="en"><![CDATA[TinyMCE WYSIWYG Editor Integration with support of smilies and custom BBCodes.]]></description>
+		<author-notes lang="en"><![CDATA[- To display icon for custom BBCode, upload 24x24 pixels gif image with same name of custom bbcode to images/bbcodes folder. for example for a custom bbcode with this name: youtube, upload youtube.gif to images/bbcodes folder.
+
+- You may download latest version of tinymce and upload 'tiny_mce' folder to styles/prosilver/template and styles/subsilver2/template folder. in this case do not forget to copy phpbbcode tinymce plugin to plugins folder.]]></author-notes>
+		<author-group>
+			<author>
+				<username><![CDATA[emosbat]]></username>
+				<homepage><![CDATA[https://github.com/eMosbat]]></homepage>
+			</author>
+		</author-group>
+		<mod-version>1.5.9</mod-version>
+		<installation>
+			<level>easy</level>
+			<time>480</time>
+			<target-version>3.0.11</target-version>
+		</installation>
+	</header>
+	<action-group>
+		<copy>
+			<file from="contrib/eMosbat-TinyMCE-Subsilver2/root/*.*" to="*.*"/>
+		</copy>
+		<open src="styles/subsilver2/template/posting_body.html">
+			<edit>
+				<find><![CDATA[</script>]]></find>
+				<action type="after-add"><![CDATA[<!-- INCLUDE emotinymce_editor.html -->
+
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[<!-- INCLUDE posting_buttons.html -->]]></find>
+				<action type="replace-with"><![CDATA[<!-- IF not EMOTINYMCE_ENABLE -->
+<!-- INCLUDE posting_buttons.html -->
+<!-- ENDIF -->
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[<textarea name="message" rows="15" cols="76" tabindex="3" onselect="storeCaret(this);" onclick="storeCaret(this);" onkeyup="storeCaret(this);" onfocus="initInsertions();" style="width: 700px; height: 270px; min-width: 98%; max-width: 98%;">{MESSAGE}</textarea>]]></find>
+				<inline-edit>
+					<inline-find><![CDATA[name="message"]]></inline-find>
+					<inline-action type="replace-with"><![CDATA[name="message" id="message"]]></inline-action>
+				</inline-edit>
+			</edit>
+		</open>
+		<open src="styles/subsilver2/template/posting_smilies.html">
+			<edit>
+				<find><![CDATA[<script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/editor.js"></script>]]></find>
+				<action type="after-add"><![CDATA[<!-- IF EMOTINYMCE_ENABLE -->
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/emo_tinymce.js"></script>
+<!-- ENDIF -->
+]]></action>
+			</edit>
+		</open>
+		<open src="styles/subsilver2/template/ucp_prefs_personal.html">
+			<edit>
+				<find><![CDATA[<tr>
+	<td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input class="btnmain" type="submit" name="submit" value="{L_SUBMIT}" />&nbsp;&nbsp;<input class="btnlite" type="reset" value="{L_RESET}" name="reset" /></td>
+</tr>]]></find>
+				<action type="before-add"><![CDATA[	<!-- IF EMOTINYMCE_ALLOWUSER -->
+<tr> 
+	<td class="row1" width="50%"><b class="genmed">{L_USE_EMOTINYEDITOR}:</b></td>
+	<td class="row2"><input type="radio" class="radio" name="emotinyeditor" value="1"<!-- IF S_EMOTINYEDITOR --> checked="checked"<!-- ENDIF --> /><span class="genmed">{L_YES}</span>&nbsp;&nbsp;<input type="radio" class="radio" name="emotinyeditor" value="0"<!-- IF not S_EMOTINYEDITOR --> checked="checked"<!-- ENDIF --> /><span class="genmed">{L_NO}</span></td>
+</tr>
+	<!-- ENDIF -->
+
+]]></action>
+			</edit>
+		</open>
+		<open src="styles/subsilver2/template/ucp_profile_signature.html">
+			<edit>
+				<find><![CDATA[<!-- INCLUDE ucp_header.html -->]]></find>
+				<action type="after-add"><![CDATA[<!-- INCLUDE emotinymce_editor.html -->
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[		<!-- INCLUDE posting_buttons.html -->
+]]></find>
+				<action type="replace-with"><![CDATA[		<!-- IF not EMOTINYMCE_ENABLE -->
+		<!-- INCLUDE posting_buttons.html -->
+		<!-- ENDIF -->
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[<textarea class="post" name="signature" rows="10" cols="76" style="width: 90%;" onselect="storeCaret(this);" onclick="storeCaret(this);" onkeyup="storeCaret(this);" onfocus="initInsertions();">{SIGNATURE}</textarea>]]></find>
+				<inline-edit>
+					<inline-find><![CDATA[name="signature"]]></inline-find>
+					<inline-action type="replace-with"><![CDATA[name="signature" id="message"]]></inline-action>
+				</inline-edit>
+			</edit>
+		</open>
+	</action-group>
+</mod>
